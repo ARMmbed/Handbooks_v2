@@ -48,7 +48,7 @@ For all the mbed C/C++ SDK APIs, see the [[/handbook|mbed Handbook]]
 
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 
-![logos](https://github.com/ARMmbed/Handbooks/blob/master/Images/sdk_logos.png)
+![logos](https://github.com/ARMmbed/Handbooks/tree/master/v2/2_Dev_Fun/Images/sdk_logos.png)
 
 ##Support for Multiple Targets
 
