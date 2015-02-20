@@ -36,15 +36,15 @@ Startup code, check. C Library integration, check. Peripheral libraries, check. 
 
 The mbed SDK gives you an API-driven approach to microcontroller coding.
 
-We've done all the hard work of implementing drivers for the different [[/platforms|mbed platforms]], so you don't have to. It is liberating to fire up an interface, knowing it'll just work!
+We've done all the hard work of implementing drivers for the different [mbed platforms](/platforms), so you don't have to. It is liberating to fire up an interface, knowing it'll just work!
 
 You can code using meaningful abstract objects and API calls, so you don't need to learn the microcontroller hardware details to get going. There is even a "Hello World!" example for every peripheral, just to get you started before you know it.
 
-Take a look at some of these interfaces to get a feel of how it works: [[DigitalOut]], [[AnalogIn]], [[SPI]], [[USBMouse]], [[Timer]], [[CAN]]
+Take a look at some of these interfaces to get a feel of how it works: [digital out](/DigitalOut), [analog in](/Analogin), [SPI](/spi), [USB mouse](/USBMouse), [Timer](/timer), [CAN](/can).
 
 But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
-For all the mbed C/C++ SDK APIs, see the [[/handbook|mbed Handbook]]
+For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)
 
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 
@@ -60,9 +60,9 @@ Our goal with the mbed Compiler and mbed SDK is to enable a consistent and stabl
 
 However, the mbed C/C++ SDK used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains!
 
-If you'd like to use the [[/platforms|mbed platforms]] or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
+If you'd like to use the [mbed platforms](/platforms) or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
 
-You can read more about this on the [[Exporting to offline toolchains]] handbook page.
+You can read more about this on the [Exporting to offline toolchains](/handbook//Exporting-to-offline-toolchains) handbook page.
 
 ##Open Source
 
@@ -72,12 +72,12 @@ The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
 We wanted to make sure the license we chose made it possible to use the SDK in both commercial and personal projects with confidence, including no obligations to open source your own code if you didn't want to. Whilst we encourage sharing of code and experience to be reusable by others, we certainly don't want to enforce it, and a permissive license provides that freedom for our users to keep the options open.
 
-If you are interested in delving in the depth of the mbed SDK implementation you can take a look at the documentation of the [[/handbook/mbed-library-internals|mbed library internals]].
+If you are interested in delving in the depth of the mbed SDK implementation you can take a look at the documentation of the [mbed library internals](/handbook/mbed-library-internals).
 
 and you can use the mbed library sources, instead of one of its builds:
 [Import the code](/users/mbed_official/code/mbed-src/)
 
-If you are interested in [[/handbook/mbed-SDK-porting|porting the mbed SDK]] to a new target we provide the sources of all the official mbed libraries, tests and [[/handbook/mbed-tools|tools (build and test system)]] in [[https://github.com/mbedmicro/mbed|this github repository]].
+If you are interested in [porting the mbed SDK](/handbook/mbed-SDK-porting) to a new target we provide the sources of all the official mbed libraries, tests and [tools (build and test system)](/handbook/mbed-tools) in [this github repository](https://github.com/mbedmicro/mbe).
 
 ##See also
 Check out the rest of the mbed platform, and [explore](http://mbed.org/explore/) what it can do for you!
