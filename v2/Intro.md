@@ -1,6 +1,12 @@
-#Intro
+#Welcome to the mbed handbook
 
 Welcome to the mbed handbook; we're here to help you get started with an mbed project. 
+
+##About mbed
+
+mbed gives you everything you need to be able to work with a wide selection of ARM-based boards: an on-line development environment, an SDK and an HDK.
+
+##About the handbook
 
 The handbook contains four sections; you can read them in sequence, but they can also be read as stand-alone. They are:
 
