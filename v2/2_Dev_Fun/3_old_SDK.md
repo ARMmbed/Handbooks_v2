@@ -48,7 +48,7 @@ For all the mbed C/C++ SDK APIs, see the [[/handbook|mbed Handbook]]
 
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 
-![logos](/Images/sdk_logos.png?raw=true)
+![logos](https://github.com/ARMmbed/Handbooks/tree/master/v2/2_Dev_Fun/Images/sdk_logos.png)
 
 ##Support for Multiple Targets
 
@@ -66,7 +66,7 @@ You can read more about this on the [[Exporting to offline toolchains]] handbook
 
 ##Open Source
 
-![open source](/Images/sdk_open_source.png)
+![open source](https://github.com/ARMmbed/Handbooks/tree/master/v2/2_Dev_Fun/Images/sdk_open_source.png)
 
 The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
