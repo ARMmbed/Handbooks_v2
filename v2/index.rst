@@ -1,5 +1,5 @@
 .. toctree::
-	:maxdepth: 2
+	:maxdepth: 4
 	
 	Intro
 	1_Getting_Started <Getting Started With mbed>
