@@ -1,3 +1,5 @@
+site_name: mbed Handbooks
+
 pages:
 
 - ['README.md', 'Introduction to the Handbooks']
