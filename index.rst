@@ -1,8 +1,16 @@
 .. toctree::
 	:maxdepth: 4
 	
-	Intro
-	1_Getting_Started <Getting Started With mbed>
-	2_DEV_Fun <Development Fundamentals>
-	3_Adv_Dev <Advanced Development on mbed>
-	4_Community <The mbed Community>
+	
+	README.md <Intro to the Handbooks>
+	v2 <Version 2>
+	v2\Intro <Introduction>
+	v2\1_Getting_Started <Getting Started With mbed>
+	v2\1_Getting_Started\1_Intro <Intro to mbed>
+	v2\1_Getting_Started\2_Plat_Comp_Intro <Platforms and Components>
+	v2\1_Getting_Started\3_User_Plat_Reg <Platform Registration>
+	v2\1_Getting_Started\4_IDE_API <The IDE and API>
+	v2\1_Getting_Started\5_First_Pro <First Program>
+	v2\2_DEV_Fun <Development Fundamentals>
+	v2\3_Adv_Dev <Advanced Development on mbed>
+	v2\4_Community <The mbed Community>
