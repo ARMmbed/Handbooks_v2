@@ -42,13 +42,13 @@ You can code using meaningful abstract objects and API calls, so you don't need 
 
 Take a look at some of these interfaces to get a feel of how it works: [digital out](/DigitalOut), [analog in](/Analogin), [SPI](/spi), [USB mouse](/USBMouse), [Timer](/timer), [CAN](/can).
 
-But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.gi
+But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
 For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)
 
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 
-![logos](https://github.com/ARMmbed/Handbooks/tree/master/v2/2_Dev_Fun/Images/sdk_logos.png)
+![logos](/v2/2_Dev_Fun/Images/sdk_logos.png)
 
 ##Support for Multiple Targets
 
