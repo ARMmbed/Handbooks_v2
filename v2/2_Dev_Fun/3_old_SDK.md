@@ -66,7 +66,7 @@ You can read more about this on the [Exporting to offline toolchains](/handbook/
 
 ##Open Source
 
-![open source](/v2/2_Dev_fun/Images/sdk_open_source.png)
+![open source](/v2/2_Dev_Fun/Images/sdk_open_source.png)
 
 The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
