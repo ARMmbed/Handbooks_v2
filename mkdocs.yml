@@ -1,6 +1,7 @@
 site_name: mbedHandbooks
 
 pages:
+- ['index.md','Introduction']
 - ['v2/index.md', 'v2', 'Introduction to Version 2']
 - ['v2/1_Getting_Started/1_Intro.md', 'Getting Started', 'Intro to mbed']
 - ['v2/1_Getting_Started/2_Plat_Comp_Intro.md', 'Getting Started','Platforms and Components']
