@@ -1,6 +1,6 @@
-#Welcome to the mbed handbook
+#Welcome to the mbed v2 handbook
 
-Welcome to the mbed handbook; we're here to help you get started with an mbed project. 
+Welcome to the mbed v2 handbook; we're here to help you get started with an mbed project. 
 
 ##About mbed
 
@@ -17,3 +17,5 @@ The handbook contains four sections; you can read them in sequence, but they can
 3. **Advanced Development**: how to write, debug, publish and document your own code, as well as using external toolchains.
 
 4. **The mbed Community**: where to get help, how to contribute to the community, and educational resources.
+
+Note: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
