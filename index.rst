@@ -1,9 +1,8 @@
 	toctree::
 	:maxdepth: 4
 	
-	
 	README.md <Intro to the Handbooks>
-	v2/Intro to Version 2 <Introduction>
+	v2/Intro <Introduction to Version 2>
 	v2/1_Getting_Started/1_Intro <Intro to mbed>
 	v2/1_Getting_Started/2_Plat_Comp_Intro <Platforms and Components>
 	v2/1_Getting_Started/3_User_Plat_Reg <Platform Registration>
