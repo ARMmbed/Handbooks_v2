@@ -1,4 +1,4 @@
-.. toctree::
+	toctree::
 	:maxdepth: 4
 	
 	Intro
