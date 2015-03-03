@@ -42,7 +42,7 @@ You can code using meaningful abstract objects and API calls, so you don't need 
 
 Take a look at some of these interfaces to get a feel of how it works: [digital out](/DigitalOut), [analog in](/Analogin), [SPI](/spi), [USB mouse](/USBMouse), [Timer](/timer), [CAN](/can).
 
-But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
+But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.gi
 
 For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)
 
@@ -66,7 +66,7 @@ You can read more about this on the [Exporting to offline toolchains](/handbook/
 
 ##Open Source
 
-![open source](Images/sdk_open_source.png)
+![open source](/v2/2_Dev_fun/Images/sdk_open_source.png)
 
 The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
