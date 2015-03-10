@@ -6,4 +6,3 @@ You need to select a platform that matches what you're trying to achieve, as the
 
 ##Picking a Platform
 
-You can 
