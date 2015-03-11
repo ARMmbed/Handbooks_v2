@@ -20,4 +20,4 @@ The handbook contains four sections; you can read them in sequence, but they can
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 **Note**: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
-</span
+</span>
