@@ -8,7 +8,7 @@ You need to select a platform that matches what you're trying to achieve, as the
 
 Platform programming is done in C++; it relies on APIs that abstract the hardware, protocols and component support. 
 
-<span style="background-color:lightgray; color:purple; display:block; height:15px; padding:10px">
+<span style="background-color:lightgray; color:purple; display:block; height:40px; padding:10px">
 **Tip:** for more information about the software development kit, see our [SDK section](/2_Dev_Fun/3_old_SDK/).
 </span>
 
