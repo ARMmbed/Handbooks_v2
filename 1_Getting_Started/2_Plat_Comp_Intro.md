@@ -1,4 +1,4 @@
-##Platforms and Components: Programming and Interoperability
+##Overivew
 
 All mbed programs are written for one or more [platforms](http://developer.mbed.org/platforms/): a board with an ARM microcontroller and various capabilities such as receiving and processing input, generating output and storing small bits of information. 
 
