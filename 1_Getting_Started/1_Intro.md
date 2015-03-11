@@ -1,8 +1,13 @@
 #Getting Started
 
-This section will lead you through the process of creating your first mbed program:
+This section will lead you through the process of creating a prototype on an mbed board:
 
-1. [Platform and component introduction](/1_Getting_Started/2_Plat_Comp_Intro/). 
+![Full mbed process](/1_Getting_Started/Images/fullmbedprocess.png "The standard process is to get a board (and maybe a few extending components), write a bit of code and import it to the board. Simple.")
+>>><span style="color:green;">*The standard process is to get a board (and maybe a few extending components), write a bit of code and import it to the board. Simple.*</span>
+
+We'll look at the extended process, which includes creating a user and registering a platform. We'll also review our online compiler and show you how to build your first program:
+
+1. [Boards and components](/1_Getting_Started/2_Plat_Comp_Intro/). 
 
 2. [User and platform registration](/1_Getting_Started/3_User_Plat_Reg/). 
 
@@ -10,4 +15,4 @@ This section will lead you through the process of creating your first mbed progr
 
 4. [Your first program](/1_Getting_Started/5_First_Pro/).
 
-The program you'll create in this section is called Blinky. If you've already set up your IDE and have a board, you can skip ahead to the [Blinky example](/1_Getting_Started/5_First_Pro/).
+The program you'll create in this section is called `Blinky`. If you've already set up your IDE and have a board, you can skip ahead to the [Blinky example](/1_Getting_Started/5_First_Pro/).
