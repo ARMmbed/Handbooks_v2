@@ -2,7 +2,9 @@
 
 This section will lead you through the process of creating a prototype on an mbed board:
 
+<span style="text-align:center; display:block;">
 ![Full mbed process](/1_Getting_Started/Images/fullmbedprocess.png "The standard process is to get a board (and maybe a few extending components), write a bit of code and import it to the board. Simple.")
+</span>
 ><span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px">*The standard process is to get a board (and maybe a few extending components), write a bit of code and import it to the board. Simple.*</span>
 
 We'll look at the extended process, which includes creating a user and registering a platform. We'll also review our online compiler and show you how to build your first program:
