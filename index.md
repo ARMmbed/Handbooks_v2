@@ -18,4 +18,6 @@ The handbook contains four sections; you can read them in sequence, but they can
 
 4. [**The mbed Community**](/4_Community/1_Intro/): where to get help, how to contribute to the community, and educational resources.
 
-*Note*: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
+**Note**: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
+</span
