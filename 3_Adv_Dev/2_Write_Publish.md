@@ -253,7 +253,7 @@ Your library is now live! You can go to the URL and see it on the mbed.org websi
 
 It now just contains a reference to the published library, just like anyone else will get when they choose to import your library.
 
-== How to make updates to a library (or edit someone else's library) ==
+##How to make updates to a library (or edit someone else's library)
 
 So, now lets say you wanted to edit the library some more. Perhaps you wanted to add some Doxygen documentation so users of your library get nice documentation of your library so they know how to use it. We'll that's nice and easy. Just right-click the library and choose "Edit Library...". You'll be back to a editable library folder:
 
@@ -267,4 +267,4 @@ Note that you can also edit a library that someone else wrote. Just import it, c
 
 ##Documenting your library
 
-The mbed site will also automatically generate API documentation for your library if you mark it up. See the [API Documentation section](http://developer.mbed.org/handbook/API-Documentation).
+The mbed site will also automatically generate API documentation for your library if you mark it up. See the [API Documentation section](http://developer.mbed.org/handbook/API-Documentation). d
