@@ -41,10 +41,10 @@ Take a look at some of these interfaces to get a feel of how it works: [digital 
 
 But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
-<span style="display:block; float:right; padding:20px;">
+<span style="display:block; float:right; padding-top:0px; padding-right=0px; padding-left=20px; padding-bottom=20px;">
 ![logos](/2_Dev_Fun/Images/sdk_logos.png)
 </span>
-<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
+<span style="background-color:lightgray; color:purple; display:block; height:100%;padding:20px;">
 For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)<br />
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 </span>
