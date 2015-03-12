@@ -33,6 +33,10 @@ Startup code, check. C Library integration, check. Peripheral libraries, check. 
 
 The abstraction provided by the mbed SDK APIs enables libraries and example code to be reused by any microcontroller target that the mbed SDK targets.
 
+<span style="display:block; float:right; padding-top:0px; padding-right=0px; padding-left=20px; padding-bottom=20px;">
+![logos](/2_Dev_Fun/Images/sdk_logos.png)
+</span>
+
 ##Support for Multiple Toolchains
 
 Our goal with the mbed Compiler and mbed SDK is to enable a consistent and stable fully integrated development platform that just works. This helps provide a consistent context for development, code sharing, and questions and answers with other developers that helps you be more productive, especially when prototyping.
@@ -44,6 +48,7 @@ If you'd like to use the [mbed platforms](/platforms) or mbed C/C++ SDK with an 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 You can read more about this on the [Exporting to offline toolchains](/handbook//Exporting-to-offline-toolchains) handbook page.
 </span>
+
 ##Open Source
 
 <span style="display:block; float:right; padding:20px;">
