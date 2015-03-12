@@ -49,6 +49,7 @@ For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)<br />
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
 </span>
 
+<span>
 ##Support for Multiple Targets
 
 The abstraction provided by the mbed SDK APIs enables libraries and example code to be reused by any microcontroller target that the mbed SDK targets.
