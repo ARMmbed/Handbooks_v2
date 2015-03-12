@@ -24,6 +24,6 @@ pages:
   - ['4_Community/3_Cont_SDK_HDK.md','The mbed Community','Cont SDK HDK']
   - ['4_Community/4_Edu.md','The mbed Community','Education']
   
-repo_url: https://github.com/drush-ops/drush
+repo_url: https://github.com/ARMmbed/Handbooks_v2
 include_search: false
 use_directory_urls: true
