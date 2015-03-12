@@ -21,6 +21,6 @@ To help you experiment and prototype, we've moved the interoperability of platfo
 <span style="text-align:center; display:block;">
 ![Multiple platforms](/1_Getting_Started/Images/IDE_Select_Platform.png "The IDE lets you select a target platform at any stage in the process")
 </span>
-<span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">*The IDE lets you select a target platform at any stage in the process*</span>
+<span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">The IDE lets you select a target platform at any stage in the process</span>
 
 
