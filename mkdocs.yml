@@ -21,4 +21,4 @@ pages:
 - ['4_Community/2_Questions.md','The mbed Community','Where to Ask Questions']
 - ['4_Community/3_Cont_SDK_HDK.md','The mbed Community','Cont SDK HDK']
 - ['4_Community/4_Edu.md','The mbed Community','Education']
-- ['http://ble-intros.readthedocs.org/en/latest/AdvSamples/LEDReadWrite/','Other repo','sample from other repo']
+- ['http://ble-intros.readthedocs.org/en/latest/AdvSamples/LEDReadWrite.html','Other repo','sample from other repo']
