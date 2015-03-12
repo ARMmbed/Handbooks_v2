@@ -1,7 +1,3 @@
-#SDK 
-
-**Copied from http://developer.mbed.org/handbook/mbed-SDK**
-
 #The mbed SDK
 
 The mbed Software Development Kit (SDK) is a C/C++ microcontroller software platform relied upon by tens of thousands of developers to build projects fast. We've worried about creating and testing startup code, C runtime, libraries and peripheral APIs, so you can worry about coding the smarts of your next product.
@@ -9,7 +5,6 @@ The mbed Software Development Kit (SDK) is a C/C++ microcontroller software plat
 The SDK is licensed under the permissive Apache 2.0 licence, so you can use it in both commercial and personal projects with confidence.
 
 The mbed SDK has been designed to provide enough hardware abstraction to be intuitive and concise, yet powerful enough to build complex projects. It is built on the low-level ARM CMSIS APIs, allowing you to code down to the metal if needed. In addition to RTOS, USB and Networking libraries, a cookbook of hundreds of reusable peripheral and module libraries have been built on top of the SDK by the mbed Developer Community.
-
 
 ##Hello World!
 
@@ -44,11 +39,13 @@ Take a look at some of these interfaces to get a feel of how it works: [digital 
 
 But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)
-
 To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
-
 ![logos](/2_Dev_Fun/Images/sdk_logos.png)
+</span>
+
+
 
 ##Support for Multiple Targets
 
