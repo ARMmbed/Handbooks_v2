@@ -25,10 +25,10 @@ PwmOut to pin p20. Because PwmOut is not available on pin p20, a run time error 
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 **Siren Lights:** When a run time error is encountered, the board will flash its LEDs in a distinctive pattern to let you know that an error has occurred and that the program has stopped running.
-<span>
+</span>
 
 <span style="text-align:center; display:block;">
-![Warning lights](/3_Adv_Dev/Images/Debug/FRDM-KL25Z.gif)![](/3_Adv_Dev/Images/Debug/LPC11U24.gif)![](/3_Adv_Dev/Images/Debug/LPC1768.gif)
+![Warning lights](/3_Adv_Dev/Images/Debug/FRDM_KL25Z.gif)![](/3_Adv_Dev/Images/Debug/LPC11U24.gif)![](/3_Adv_Dev/Images/Debug/LPC1768.gif)
 </span>
 
 When the program below starts a run time error is caused, leading to the siren lights. 
