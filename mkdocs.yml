@@ -1,6 +1,12 @@
 site_name: mbed v2 Handbook
+site_url: /
+site_description: 
 theme: readthedocs
 docs_dir: '.'
+use_absolute_urls: true
+repo_url: https://github.com/ARMmbed/Handbooks_v2
+include_search: false
+use_directory_urls: true
 
 pages:
   - ['index.md','Introduction to Version 2']
@@ -24,6 +30,3 @@ pages:
   - ['4_Community/3_Cont_SDK_HDK.md','The mbed Community','Cont SDK HDK']
   - ['4_Community/4_Edu.md','The mbed Community','Education']
   
-repo_url: https://github.com/ARMmbed/Handbooks_v2
-include_search: false
-use_directory_urls: true
