@@ -1,1 +1,1 @@
-#Intro
+#Contributing to the SDK and HDK
