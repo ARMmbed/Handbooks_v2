@@ -12,6 +12,7 @@ pages:
 - ['2_Dev_Fun/2_API_Libs.md', 'Development Fundamentals','The APIs']
 - ['2_Dev_Fun/2_API_Libs_Breakdown.md', 'Development Fundamentals','API Breakdown']
 - ['2_Dev_Fun/4_HDK.md', 'Development Fundamentals','The HDK']
+- ['2_Dev_Fun/4_CMSIS.md', 'Development Fundamentals','The CMSIS-DAP']
 - ['3_Adv_Dev/1_Intro.md','Advanced Development', 'Advanced Development on mbed']
 - ['3_Adv_Dev/2_Write_Publish.md','Advanced Development','Writing and Publishing Code']
 - ['3_Adv_Dev/2_Coding_Style.md','Advanced Development','Coding Style Guide']

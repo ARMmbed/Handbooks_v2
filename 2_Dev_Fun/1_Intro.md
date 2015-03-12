@@ -6,4 +6,4 @@ This section introduces:
 
 2. The [API](/2_Dev_Fun/2_API_Libs/) and a breakdown of [available libraries](/2_Dev_Fun/2_API_Libs_Breakdown/).
 
-3. The [HDK](/2_Dev_Fun/4_HDK/) and the CMSIS-DAP interface.
+3. The [HDK](/2_Dev_Fun/4_HDK/) and the [CMSIS-DAP interface](/2_Dev_Fun/4_CMSIS/).

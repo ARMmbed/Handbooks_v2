@@ -11,7 +11,7 @@ Development boards that are already based on the mbed HDK are the quickest way t
 Are you are a hardware company that would like to create an mbed-enabled platform of your own that is supported within the mbed platforms database and tools? If so, then please email us at <mailto:support@mbed.org> and we can help you with your questions and support you through the process.
 </span>
 
-## Microcontroller Sub-systems 
+##Microcontroller Sub-systems 
 
 Each of the subsystems designs include
 
@@ -24,13 +24,11 @@ An example of how a microcontroller sub-system might be used to build an evaluat
 ![eveulation](/2_Dev_Fun/Images/EvaluationBoard.png)
 </span>
 
-## CMSIS-DAP interface 
+##CMSIS-DAP interface 
 
-The CMSIS-DAP Interface is a microcontroller based single chip solution that provides, Drag and Drop programming, [CMSIS-DAP](/handbook/CMSIS-DAP) debugger and USB serial interface to a range of Cortex-M based microcontrollers.
+The CMSIS-DAP Interface is a microcontroller-based single chip solution that provides drag and drop programming, [CMSIS-DAP](/2_Dev_Fun/4_CMSIS/) debugger and USB serial interface to a range of Cortex-M based microcontrollers. The small footprint, low number of passive components and rich feature set provide a low cost, low overhead solution that can easily be integrated on a PCB.
 
-The small footprint, low number of passive components and rich feature set provide a low cost, low overhead solution that can easily be integrated on a PCB.
-
-The firmware required to turn the low cost microcontroller into a powerful programming, debug and communication interface, is included with the HDK and can be used freely, including for use in commercial products.
+The firmware required to turn the low cost microcontroller into a powerful programming, debug and communication interface is included with the HDK and can be used freely, even in commercial products.
 
 <span style="display:block; text-align:center; padding:20px;">
 ![CMSIS](/2_Dev_Fun/Images/CMSISDAPInterface.png)
@@ -38,17 +36,21 @@ The firmware required to turn the low cost microcontroller into a powerful progr
 
 The CMSIS-DAP interface provides three main functions over a single physical USB connection :
 
-  * USB Disk drag and drop programming - ideal for fast turn around prototyping, or in-field upgradable products
-  * Debug interface using the [CMSIS-DAP](/handbook/CMSIS-DAP) - Provides full debug capability with tools like [Keil MDK](/handbook/CMSIS-DAP-MDK)
-  * USB Serial interface between the host computer and the target
+  * USB Disk drag and drop programming - ideal for fast turnaround prototyping or in-field upgradable products.
+  * Debug interface using the [CMSIS-DAP](/2_Dev_Fun/4_CMSIS) - provides full debug capability with tools like [Keil MDK](http://developer.mbed.org/handbook/CMSIS-DAP-MDK).
+  * USB Serial interface between the host computer and the target.
 
 
-## Benefits of the HDK 
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
+For more information see the [CMSIS-DAP section](/2_Dev_Fun/4_CMSIS/).
+</span>
+
+##Benefits of the HDK 
 
 There are various benefits to building a custom design onto of the mbed HDK. The ready made schematics are a great short cut, so you can get started on all the things that make your design, without worrying if you've correctly implemented all the "necessary bits" of the design. The mbed HDK incorporates the CMSIS-DAP interface. This provides USB drag and drop programming, [CMSIS-DAP](/handbook/CMSIS-DAP) debugging and USB serial communication. The [mbed SDK](/handbook/mbed-SDK) supports each of the exact configurations of HDK designs, and libraries that have been written to the APIs in the mbed SDK are highly reusable. Lastly, the mbed community has developed a wealth of libraries, applications and code examples using the SDK/HDK, and this active community offers a lot of opportunities for support and even hiring in required skills.
 
 
-## Sources
+##Sources
 
 1. The mbed HDK, complete with PCB Layout files and schematics, can be downloaded from the repository [mbed-HDK](http://developer.mbed.org/teams/mbed/code/mbed-HDK/).
 
