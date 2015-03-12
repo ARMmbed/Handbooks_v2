@@ -41,7 +41,7 @@ Take a look at some of these interfaces to get a feel of how it works: [digital 
 
 But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
-<span style="display:block; float:right;">
+<span style="display:block; float:right; padding:20px;">
 ![logos](/2_Dev_Fun/Images/sdk_logos.png)
 </span>
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
@@ -66,7 +66,7 @@ You can read more about this on the [Exporting to offline toolchains](/handbook/
 </span>
 ##Open Source
 
-<span style="display:block; text-align:center;">
+<span style="display:block; float:right; padding:20px;">
 ![open source](/2_Dev_Fun/Images/sdk_open_source.png)
 </span>
 
