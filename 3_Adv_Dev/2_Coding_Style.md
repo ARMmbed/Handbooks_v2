@@ -6,7 +6,8 @@ Be consistent.
 
 The mbed SDK code follows [K&R style] (http://en.wikipedia.org/wiki/Indent_style#K.26R_style) with at least two exceptions that can be found in the list below the code snippet.
 
-
+```c
+	
 	static const PinMap PinMap_ADC[] = {
 		{PTC2, ADC0_SE4b, 0},
 		{NC  , NC       , 0}
@@ -46,6 +47,7 @@ The mbed SDK code follows [K&R style] (http://en.wikipedia.org/wiki/Indent_style
 	#endif
 		return adc_hal_get_conversion_value(instance, 0);
 	}
+```
 
 ##Rules
 
@@ -82,7 +84,7 @@ Functions
 * contain lower case letters (as methods within classes)
 * distinct words separated by underscore (wait_ms, read_u16)
 
-```
+```c
 
 	#define ADC_INSTANCE_SHIFT 8
 
@@ -125,6 +127,8 @@ Functions
 
 All functions/methods should contain a documentation using doxygen javadoc in a header file. More information regarding writing API Documentation, follow the [link](https://mbed.org/handbook/API-Documentation).
 
+```c
+	
 	#ifndef ADC_H
 	#define ADC_H
 
@@ -147,6 +151,7 @@ All functions/methods should contain a documentation using doxygen javadoc in a 
 	#endif
 
 	#endif
+```
 
 ##Source code indenter
 
