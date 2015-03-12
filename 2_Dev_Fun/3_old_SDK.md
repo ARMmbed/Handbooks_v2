@@ -10,7 +10,9 @@ The mbed SDK has been designed to provide enough hardware abstraction to be intu
 
 Startup code, check. C Library integration, check. Peripheral libraries, check. We've worked hard to help you get to the point:
 
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 [Import the code](/teams/mbed/code/mbed_blinky/)
+</span>
 
 
 	#include "mbed.h"
@@ -39,14 +41,15 @@ Take a look at some of these interfaces to get a feel of how it works: [digital 
 
 But if needed, you can always bypass the APIs and talk directly to the microcontroller hardware using the low-level Cortex Microcontroller Software Interface Standard (CMSIS) APIs. Ideal when they are fine for most of your project, but one aspect needs specific low-level control.
 
-<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)
-To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
+<span style="display:block; float:right;">
 ![logos](/2_Dev_Fun/Images/sdk_logos.png)
 </span>
+<span style="background-color:lightgray; float:left; color:purple; display:block; height:100%; padding:10px">
+For all the mbed C/C++ SDK APIs, see the [mbed handbook](/handbook)<br />
+To read more about mbed SDK coding style, see the [mbed SDK coding style](https://mbed.org/teams/SDK-Development/wiki/mbed-sdk-coding-style)
+</span>
 
-
-
+<p><br /><br /><br /><br /></p>
 ##Support for Multiple Targets
 
 The abstraction provided by the mbed SDK APIs enables libraries and example code to be reused by any microcontroller target that the mbed SDK targets.
@@ -59,11 +62,14 @@ However, the mbed C/C++ SDK used with the mbed Online Compiler is also compatibl
 
 If you'd like to use the [mbed platforms](/platforms) or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
 
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 You can read more about this on the [Exporting to offline toolchains](/handbook//Exporting-to-offline-toolchains) handbook page.
-
+</span>
 ##Open Source
 
+<span style="display:block; text-align:center;">
 ![open source](/2_Dev_Fun/Images/sdk_open_source.png)
+</span>
 
 The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
