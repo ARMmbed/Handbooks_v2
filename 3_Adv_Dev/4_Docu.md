@@ -192,7 +192,7 @@ Last but not least, a few notes about Doxygen as being the core of the documenta
 
 * Doxygen can process comments located right next to definitions and declarations, and also at other places. Refer to [documentation at other places](http://www.stack.nl/~dimitri/doxygen/docblocks.html#structuralcommands) in the Doxygen manual.
 
-##Final words ==
+##Final words
 
 There is so much more to be said about API documentation that isn't covered by this guide. How it improves direct and indirect collaborative development of complex programs and libraries. How the documentation preview can improved even further with groups, brief descriptions, etc. No doubt that documenting a code is an added effort on top of the code development. But if that extra effort could enable everyone to efficiently utilize the code and its features, then may be that effort is as important as the code itself. 
 
