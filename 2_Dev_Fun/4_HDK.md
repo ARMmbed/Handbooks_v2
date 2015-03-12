@@ -5,8 +5,12 @@ The mbed Hardware Development Kit (HDK) provides full microcontroller sub-system
 The mbed HDK specifies all support components and circuits including the CMSIS-DAP Interface design that provides simple USB drag-n-drop programming and CMSIS-DAP debug interface for the target microcontroller.
 
 Development boards that are already based on the mbed HDK are the quickest way to get started with the mbed platform. We manufacture official mbed Microcontroller modules that are specifically optimised for flexible rapid prototyping, and are available from distributors worldwide. Our partners are now also creating mbed-enabled hardware such as ultra low-cost ARM evaluation boards in the popular Arduino form-factor.
-##Creating your own mbed-enabled platforms
+
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
+**Creating your own mbed-enabled platforms** <br />
 Are you are a hardware company that would like to create an mbed-enabled platform of your own that is supported within the mbed platforms database and tools? If so, then please email us at <mailto:support@mbed.org> and we can help you with your questions and support you through the process.
+</span>
+
 ## Microcontroller Sub-systems 
 
 Each of the subsystems designs include
@@ -14,9 +18,11 @@ Each of the subsystems designs include
   * Hardware design schematics (Eagle format)
   * Interface binary for the CMSIS-DAP interface
 
-An example of how a microcontroller sub-system might be used to build an evaluation board.
+An example of how a microcontroller sub-system might be used to build an evaluation board:
 
+<span style="display:block; text-align:center; padding:20px;">
 ![eveulation](/2_Dev_Fun/Images/EvaluationBoard.png)
+</span>
 
 ## CMSIS-DAP interface 
 
@@ -26,7 +32,9 @@ The small footprint, low number of passive components and rich feature set provi
 
 The firmware required to turn the low cost microcontroller into a powerful programming, debug and communication interface, is included with the HDK and can be used freely, including for use in commercial products.
 
+<span style="display:block; text-align:center; padding:20px;">
 ![CMSIS](/2_Dev_Fun/Images/CMSISDAPInterface.png)
+</span>
 
 The CMSIS-DAP interface provides three main functions over a single physical USB connection :
 
@@ -46,5 +54,7 @@ There are various benefits to building a custom design onto of the mbed HDK. The
 
 2. The sources of the [CMSIS-DAP Interface Firmware](/handbook/cmsis-dap-interface-firmware).
 
+<span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 For support, design review and other help making your platform, email <mailto:support@mbed.org>.
+</span>
 
