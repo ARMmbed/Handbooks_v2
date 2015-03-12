@@ -50,9 +50,9 @@ There are various benefits to building a custom design onto of the mbed HDK. The
 
 ## Sources
 
-1. The mbed HDK, complete with PCB Layout files and schematics, can be downloaded from the repository [mbed-HDK](/teams/mbed/code/mbed-HDK/).
+1. The mbed HDK, complete with PCB Layout files and schematics, can be downloaded from the repository [mbed-HDK](http://developer.mbed.org/teams/mbed/code/mbed-HDK/).
 
-2. The sources of the [CMSIS-DAP Interface Firmware](/handbook/cmsis-dap-interface-firmware).
+2. The sources of the [CMSIS-DAP Interface Firmware](http://developer.mbed.org/handbook/cmsis-dap-interface-firmware).
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 For support, design review and other help making your platform, email <mailto:support@mbed.org>.
