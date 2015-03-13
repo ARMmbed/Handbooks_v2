@@ -5,7 +5,7 @@
     <script src="jquery.js"></script> 
     <script> 
     $(function(){
-      $("#includedContent").load("http://http://docs.mbed.org/docs/ble-intros/en/latest/AdvSamples/Overview/"); 
+      $("#includedContent").load("http://docs.mbed.org/docs/ble-intros/en/latest/AdvSamples/Overview/"); 
     });
     </script> 
   </head> 
