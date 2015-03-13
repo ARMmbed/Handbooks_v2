@@ -5,7 +5,7 @@
     <script src="jquery.js"></script> 
     <script> 
     $(function(){
-      $("#includedContent").load("https://developer.mbed.org/handbook/Homepage"); 
+      $("#includedContent").load("http://ble-intros.readthedocs.org/en/latest/GettingStarted/DesignersIntro/#mbed"); 
     });
     </script> 
   </head> 
