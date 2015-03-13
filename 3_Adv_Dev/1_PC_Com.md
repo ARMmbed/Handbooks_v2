@@ -53,7 +53,7 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 
 ###Examples
 
-``Echo back characters you type``
+####Echo back characters you type
 
 ```c
 
@@ -70,7 +70,7 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 ```
 
 
-``Connect to your mbed Microcontroller with a Terminal program and uses the 'u' and 'd' keys to make LED1 brighter or dimmer``
+####Connect to your mbed Microcontroller with a Terminal program and uses the 'u' and 'd' keys to make LED1 brighter or dimmer
 
 ```c
 
@@ -99,7 +99,7 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 	}
 ```
 
-``Pass through characters in both directions between the PC and Serial Port``
+####Pass through characters in both directions between the PC and Serial Port
 
 ```c
 
@@ -125,7 +125,7 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 	}
 ```
 
-``The C stdin, stdout and stderr file handles are also defaulted to the PC serial connection``
+####The C stdin, stdout and stderr file handles are also defaulted to the PC serial connection
 
 ```c
 
@@ -136,7 +136,7 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 	}
 ```
 
-``Read in to a buffer``
+####Read in to a buffer
 
 ```c
 	
