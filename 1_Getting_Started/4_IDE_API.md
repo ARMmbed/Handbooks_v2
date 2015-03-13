@@ -4,9 +4,11 @@
 
 The mbed Compiler provides a lightweight online C/C++ IDE that is pre-configured to let you quickly write programs, compile and download them to run on your mbed Microcontroller. In fact, you don't have to install or set up anything to get running with mbed. Because it is a web app, you can log in from anywhere and carry on where you left off, and you are free to work on Windows, Mac, iOS, Android, Linux, or all of them.
 
-<span style="text-align:center; display:block;">
+<span style="display:block; float:right;">
 ![](/1_Getting_Started/Images/Compiler/Compiler1.png)
 </span>
+
+Watch a demonstration: 
 
 <span style="text-align:center; display:block; padding:20px;">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7N2RxktXwE4" target="_blank"><img src="http://img.youtube.com/vi/7N2RxktXwE4/0.jpg" 
