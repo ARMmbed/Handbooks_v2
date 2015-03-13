@@ -157,10 +157,10 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 
 <span style="background-color:lightyellow; color:black; display:block; height:100%; padding:10px">
 **Troubleshooting** 
-<br />If you have difficulties with USB serial communication:
 <br />
-* Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](http://developer.mbed.org/handbook/Windows-serial-configuration).
-<br />* Learn how to use the [Serial](http://developer.mbed.org/handbook/Serial) port.
-<br />* Read up on using [Terminals](http://developer.mbed.org/handbook/Terminals) programs.
+<br />If you have difficulties with USB serial communication:
+<br />1. Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](http://developer.mbed.org/handbook/Windows-serial-configuration).
+<br />2. Learn how to use the [Serial](http://developer.mbed.org/handbook/Serial) port.
+<br />3. Read up on using [Terminals](http://developer.mbed.org/handbook/Terminals) programs.
 <br /><br />**If you have any problems, or think this tutorial could be improved, please tell us in the [forum](http://developer.mbed.org/forum)** 
 </span>
