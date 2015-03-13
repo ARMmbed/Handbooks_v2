@@ -1,14 +1,16 @@
 #This should include text from another page
 
-<head>
-	<link rel="import" href="https://developer.mbed.org/handbook/Homepage">
-</head>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("https://developer.mbed.org/handbook/Homepage"); 
+    });
+    </script> 
+  </head> 
 
-<body>
-<script>
-	var link = document.querySelector('link[rel="import"]');
-	var content = link.import;
-	var el = content.querySelect('.warning');
-	document.body.appendChild(el.cloneNode(true));
-</script>
-</body>
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>
