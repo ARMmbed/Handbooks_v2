@@ -1,4 +1,3 @@
-=====
 Including stuff
 =====
 
@@ -10,4 +9,5 @@ Second title
 
 Now let's try including stuff
 
-.. include:: /tobeincluded.txt
+.. include:: ./tobeincluded.txt
+.. include:: ./tobeincluded.rst
