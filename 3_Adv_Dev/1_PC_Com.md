@@ -12,160 +12,155 @@ This enables you to:
 
 ##Hello World!
 
-<<comment>>
-#!html
-<div style="float:right; padding:5px;">
-<img src="/projects/handbook/svn/SerialPC/SerialPCHelloWorld.png" style="border: 0px solid;"><br/><br/>
-</div>
-<</comment>>
+```c
 
-<<code title="Hello World!">>
-#include "mbed.h"              
+	#include "mbed.h"
 
-Serial pc(USBTX, USBRX); // tx, rx
+	Serial pc(USBTX, USBRX); // tx, rx
 
-int main() {
-    pc.printf("Hello World!\n");
-}
-<</code>>
+	int main() {
+		pc.printf("Hello World!\n");
+	}
+```
 
-
-== Host interface and terminal applications ==
+##Host interface and terminal applications
 
 Your mbed Microcontroller can appear on your computer as a serial port. On Mac and Linux, this will happen by default. For Windows, you need to install a driver:
 
-<<warning title="Windows">>
-See [[Windows-serial-configuration]] for full details about setting up Windows for //serial communication// with your mbed Microcontroller
-<</warning>>
+<span style="background-color:lightyellow; color:black; display:block; height:100%; padding:10px">
+**Warning:** See [Windows serial configuration](http://developer.mbed.org/handbook/Windows-serial-configuration) for full details about setting up Windows for *serial communication* with your mbed Microcontroller.
+</span>
 
 It is common to use a //terminal application// on the host PC to communicate with the mbed Microcontroller. This allows the mbed Microcontroller to print to your PC screen, and for you to send characters back.
 
-   * [[Terminals]] - Using Terminal applications to communicate between the Host PC and the mbed Micrcontroller
+* [Terminals](http://developer.mbed.org/handbook/Terminals) - Using Terminal applications to communicate between the Host PC and the mbed Micrcontroller.
 
 Some terminal programs (e.g. TeraTerm) list the available serial ports by name. However, if you do need to know the identity of the serial port so that you can attach a terminal or an application to it:
 
- * //Windows// - Look under the "Ports" section in "Device Manager" (''Start -> Control Panel -> System -> Hardware -> Device Manager''). The name will be ''mbed Serial Port (COMx)'', where ''x'' is the number of the COM port allocated.
+* *Windows* - Look under the "Ports" section in "Device Manager" (''Start -> Control Panel -> System -> Hardware -> Device Manager''). The name will be ''mbed Serial Port (COMx)'', where ''x'' is the number of the COM port allocated.
 
- * //Mac OS X// - Use the command ls /dev/tty.usbmodem*
+* *Mac OS X* - Use the command ls /dev/tty.usbmodem*
 
- * //Linux// - Use the command ls /dev/ttyACM*
+* *Linux* - Use the command ls /dev/ttyACM*
 
-<<comment>>
-This is what i'd put up there once we have all the screen grabs
+##Terminal Applications
 
-|| '''Windows''' || '''Mac''' || '''Linux''' ||
-|| Find the identity of the COM port by opening ''Device Manager''. To do this navigate ''Start -> Control Panel -> System -> Hardware -> Device Manager''.  || To find the device name under Mac OS X, use the command ''ls /dev/tty.usbmodem*''  || To find the device name under Linux, use the command ''ls /dev/ttyACM*''  ||
-|| [[Image(source:Terminal/DeviceManager.png,nolink)]] || [[Image(source:Terminal/DeviceManager.png,nolink)]] || [[Image(source:Terminal/DeviceManager.png,nolink)]] ||
+###Details
 
-<</comment>>
-
-== Terminal Applications ==
-
-
-== Details == 
-
-Communication over the USB Serial port simply uses the standard [[Serial]] Interface, specifying the internal (USBTX, USBRX) pins to connect to the Serial Port routed over USB. 
+Communication over the USB Serial port simply uses the standard [Serial](http://developer.mbed.org/handbook/Serial) Interface, specifying the internal (USBTX, USBRX) pins to connect to the Serial Port routed over USB. 
 
 The Serial Interface defaults to a 9600 baud standard serial connection (8 bits, 1 stop bit, no parity), so your host program should be set to the same settings. If you want to communicate at a different standard baud rate, ensure you modify the settings of both the Serial Interface and the Host PC application!
 
-== Examples ==
+###Examples
 
-<<code title="Echo back characters you type">>
+``Echo back characters you type``
 
-#include "mbed.h"              
+```c
 
-Serial pc(USBTX, USBRX);
+	#include "mbed.h"
 
-int main() {
-    pc.printf("Echoes back to the screen anything you type\n");
-    while(1) {
-        pc.putc(pc.getc());
-    }
-}
-<</code>>
+	Serial pc(USBTX, USBRX);
 
-<<code title="Connect to your mbed Microcontroller with a Terminal program and uses the 'u' and 'd' keys to make LED1 brighter or dimmer">>
+	int main() {
+		pc.printf("Echoes back to the screen anything you type\n");
+		while(1) {
+			pc.putc(pc.getc());
+		}
+	}
+```
 
-#include "mbed.h"
 
-Serial pc(USBTX, USBRX); // tx, rx
-PwmOut led(LED1);
+``Connect to your mbed Microcontroller with a Terminal program and uses the 'u' and 'd' keys to make LED1 brighter or dimmer``
 
-float brightness = 0.0;
+```c
 
-int main() {
-    pc.printf("Press 'u' to turn LED1 brightness up, 'd' to turn it down\n");
 
-    while(1) {
-        char c = pc.getc();
-        if((c == 'u') && (brightness < 0.5)) {
-            brightness += 0.01;
-            led = brightness;
-        }
-        if((c == 'd') && (brightness > 0.0)) {
-            brightness -= 0.01;
-            led = brightness;
-        } 
+	#include "mbed.h"
 
-    }
-}
-<</code>>
+	Serial pc(USBTX, USBRX); // tx, rx
+	PwmOut led(LED1);
 
-<<code title="Pass through characters in both directions between the PC and Serial Port">>
+	float brightness = 0.0;
 
-#include "mbed.h"
+	int main() {
+		pc.printf("Press 'u' to turn LED1 brightness up, 'd' to turn it down\n");
 
-Serial pc(USBTX, USBRX);
-Serial uart(p28, p27);
+		while(1) {
+			char c = pc.getc();
+			if((c == 'u') && (brightness < 0.5)) {
+				brightness += 0.01;
+				led = brightness;
+			}
+			if((c == 'd') && (brightness > 0.0)) {
+				brightness -= 0.01;
+				led = brightness;
+			} 
+		}
+	}
+```
 
-DigitalOut pc_activity(LED1);
-DigitalOut uart_activity(LED2);
+``Pass through characters in both directions between the PC and Serial Port``
 
-int main() {
-    while(1) {
-        if(pc.readable()) {
-            uart.putc(pc.getc());
-            pc_activity = !pc_activity;
-        }
-        if(uart.readable()) {
-            pc.putc(uart.getc());
-            uart_activity = !uart_activity;
-        }
-    }
-}
-<</code>>
+```c
 
-<<code title="The C stdin, stdout and stderr file handles are also defaulted to the PC serial connection">>
-#include "mbed.h"
+	#include "mbed.h"
 
-int main() {
-    printf("Hello World!\n");
-}
-<</code>>
+	Serial pc(USBTX, USBRX);
+	Serial uart(p28, p27);
 
-<<code title="Read in to a buffer">>
-#include "mbed.h"
+	DigitalOut pc_activity(LED1);
+	DigitalOut uart_activity(LED2);
 
-DigitalOut myled(LED1);
-Serial pc(USBTX, USBRX);
+	int main() {
+		while(1) {
+			if(pc.readable()) {
+				uart.putc(pc.getc());
+				pc_activity = !pc_activity;
+			}
+			if(uart.readable()) {
+				pc.putc(uart.getc());
+				uart_activity = !uart_activity;
+			}
+		}
+	}
+```
 
-int main() {
-    char c;
-    char buffer[128];
-        
-    pc.gets(buffer, 4);
+``The C stdin, stdout and stderr file handles are also defaulted to the PC serial connection``
 
-    pc.printf("I got '%s'\n", buffer);    
-}
-<</code>>
+```c
 
-<<warning title="Troubleshooting">>
+	#include "mbed.h"
 
-If you have having difficulties with USB serial communication:
+	int main() {
+		printf("Hello World!\n");
+	}
+```
 
-  * Make sure you have installed the driver if you are working on Windows - [[Windows-serial-configuration|Windows Serial Configuration]]
-  * Learn how to use the [[Serial]] port
-  * Read up on using [[Terminals]] programs
+``Read in to a buffer``
 
-**If you have any problems, or think this tutorial could be improved, please tell us in the [[/forum|Forum]]! **
-<</warning>>
+```c
+	
+	#include "mbed.h"
+
+	DigitalOut myled(LED1);
+	Serial pc(USBTX, USBRX);
+
+	int main() {
+		char c;
+		char buffer[128];
+
+		pc.gets(buffer, 4);
+
+		pc.printf("I got '%s'\n", buffer);
+	}
+```
+
+<span style="background-color:lightyellow; color:black; display:block; height:100%; padding:10px">
+**Troubleshooting** 
+<br />If you have difficulties with USB serial communication:
+<br />
+* Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](http://developer.mbed.org/handbook/Windows-serial-configuration).
+<br />* Learn how to use the [Serial](http://developer.mbed.org/handbook/Serial) port.
+<br />* Read up on using [Terminals](http://developer.mbed.org/handbook/Terminals) programs.
+<br /><br />**If you have any problems, or think this tutorial could be improved, please tell us in the [forum](http://developer.mbed.org/forum)** 
+</span>
