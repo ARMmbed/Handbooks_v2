@@ -6,7 +6,7 @@
 
 <body>
 <script>
-	var link - document.querySelector('link[rel="import"]');
+	var link = document.querySelector('link[rel="import"]');
 	var content = link.import;
 	var el = content.querySelect('.warning');
 	document.body.appendChild(el.cloneNode(true));
