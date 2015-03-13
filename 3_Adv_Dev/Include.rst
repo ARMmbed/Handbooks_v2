@@ -1,1 +1,2 @@
-First lets see if I can see it
+Now let's try including stuff
+.. include:: <tobeincluded.rst>
