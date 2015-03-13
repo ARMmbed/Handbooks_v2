@@ -2,7 +2,6 @@
 
 **Instant access to your lightweight C/C++ microcontroller development environment**
 
-
 <span style="display:block; float:right;">
 ![](/1_Getting_Started/Images/Compiler/Compiler1.png)
 </span>
@@ -39,7 +38,7 @@ The editor also includes features like find and searching across multiple files 
 <span style="text-align:center; display:block;">
 ![](/1_Getting_Started/Images/Compiler/Compiler3.png)
 </span>
-<span style="text-align:center; display:block;">
+<span style="text-align:center; display:block; padding:20px">
 ![](/1_Getting_Started/Images/Compiler/Compiler4.png)
 </span>
 
@@ -76,7 +75,7 @@ The Import Wizard allows you to import programs and libraries published by mbed 
 </span>
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-* See also [Importing code](http://developer.mbed.org/handbook/Importing-code).
+See also [Importing code](http://developer.mbed.org/handbook/Importing-code).
 </span>
 
 ###Compilation
