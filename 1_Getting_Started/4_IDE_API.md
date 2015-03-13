@@ -8,9 +8,8 @@ The mbed Compiler provides a lightweight online C/C++ IDE that is pre-configured
 ![](/1_Getting_Started/Images/Compiler/Compiler1.png)
 </span>
 
-<span style="text-align:center; display:block; padding:30px;">
-[![The mbed online compiler](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=7N2RxktXwE4)
-</span>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=7N2RxktXwE4" target="_blank"><img src="http://img.youtube.com/vi/7N2RxktXwE4/0.jpg" 
+alt="The mbed compiler" width="240" height="180" border="10" /></a>
 
 **It is online and lightweight, but it is also powerful.**
 
