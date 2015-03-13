@@ -165,6 +165,156 @@ Not only do you get the API documentation, but you can insert code and API docum
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 [Servo - Class Reference](http://mbed.org/users/simon/code/Servo/docs/tip/classServo.html)
 
+<div class="flashbox flibrary"><h4 class="ftitle"><a class="button small radius" style="font-weight: bold; position: relative; float: right;" href="https://developer.mbed.org/compiler/#import:/users/simon/code/Servo/;mode:lib" target="compiler">Import library</a><a href="http://mbed.org/users/simon/code/Servo/docs/tip/classServo.html"><span></span></a><div class="wiki-api-header"><a href="http://mbed.org/users/simon/code/Servo/docs/tip/classServo.html"></a><a href="/users/simon/code/Servo/docs/36b69a7ced07//classServo.html">Servo - Servo Class Reference</a></div></h4><div><div class="wiki-api-snippet"><table class="memberdecls">
+<tbody>
+ <tr>
+  <td colspan="2">
+   <h2>
+    <a name="pub-methods">
+    </a>
+    Public Member Functions
+   </h2>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   &nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#a550914ccdb13d817f6460dd80aec23c3">
+    Servo
+   </a>
+   (PinName pin)
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Create a servo object connected to the specified PwmOut pin.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#a550914ccdb13d817f6460dd80aec23c3">
+   </a>
+   <br>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   void&nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#adf6f102a108f8093b48c08b1f72d5413">
+    write
+   </a>
+   (float percent)
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Set the servo position, normalised to it's full range.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#adf6f102a108f8093b48c08b1f72d5413">
+   </a>
+   <br>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   float&nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#a868d9d1513fbaf34c4d5d15a7fa4baa8">
+    read
+   </a>
+   ()
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Read the servo motors current position.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#a868d9d1513fbaf34c4d5d15a7fa4baa8">
+   </a>
+   <br>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   void&nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#a9c41903bf587e02b4f57eb957ae82341">
+    position
+   </a>
+   (float degrees)
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Set the servo position.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#a9c41903bf587e02b4f57eb957ae82341">
+   </a>
+   <br>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   void&nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#ab9876359dc71baa008846bef055cbaaf">
+    calibrate
+   </a>
+   (float range=0.0005, float degrees=45.0)
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Allows calibration of the range and angles for a particular servo.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#ab9876359dc71baa008846bef055cbaaf">
+   </a>
+   <br>
+  </td>
+ </tr>
+ <tr>
+  <td align="right" class="memItemLeft" valign="top">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html">
+    Servo
+   </a>
+   &amp;&nbsp;
+  </td>
+  <td class="memItemRight" valign="bottom">
+   <a class="el" href="/users/simon/code/Servo/docs/36b69a7ced07/classServo.html#a99dd298eb7dad01cf06fa65b7761b149">
+    operator=
+   </a>
+   (float percent)
+  </td>
+ </tr>
+ <tr>
+  <td class="mdescLeft">
+   &nbsp;
+  </td>
+  <td class="mdescRight">
+   Shorthand for the write and read functions.
+   <a href="/users/simon/code/Servo/docs/36b69a7ced07/#a99dd298eb7dad01cf06fa65b7761b149">
+   </a>
+   <br>
+  </td>
+ </tr>
+</tbody>
+</table>
+</div></div></div>
+
 These are done using the ``library``  macro and the URLs of the documentation you wish to pull in:
 
 ```
@@ -191,6 +341,7 @@ Last but not least, a few notes about Doxygen as being the core of the documenta
 * Doxygen won't process the ``main.cpp`` file unless referenced in another file using ```/** @file main.cpp */``` markup. It's generally good idea to split definitions and defines into library (libraries) instead and do not rely on ``main.cpp`` file documentation.
 
 * Doxygen can process comments located right next to definitions and declarations, and also at other places. Refer to [documentation at other places](http://www.stack.nl/~dimitri/doxygen/docblocks.html#structuralcommands) in the Doxygen manual.
+
 
 ##Final words
 

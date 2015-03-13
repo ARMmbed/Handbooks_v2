@@ -14,6 +14,7 @@ pages:
 - ['2_Dev_Fun/4_HDK.md', 'Development Fundamentals','The HDK']
 - ['2_Dev_Fun/4_CMSIS.md', 'Development Fundamentals','The CMSIS-DAP']
 - ['3_Adv_Dev/1_Intro.md','Advanced Development', 'Advanced Development on mbed']
+- ['3_Adv_Dev/1_PC_Com.md','Advanced Development', 'PC Serial Communication']
 - ['3_Adv_Dev/2_Write_Publish.md','Advanced Development','Writing and Publishing Code']
 - ['3_Adv_Dev/2_Coding_Style.md','Advanced Development','Coding Style Guide']
 - ['3_Adv_Dev/3_Debug.md','Advanced Development','Debugging Code']
