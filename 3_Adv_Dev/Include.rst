@@ -1,5 +1,13 @@
+=====
+Including stuff
+=====
+
+- Checking lists
+- And another item
+
+Second title
+------------
+
 Now let's try including stuff
 
-<span>
-.. include:: ./tobeincluded.txt
-</span>
+.. include:: /tobeincluded.txt
