@@ -1,7 +1,7 @@
 #This should include text from another page
 
 <head>
-	<link rel="import" href="developer.mbed.org/handbook/Homepage">
+	<link rel="import" href="https://developer.mbed.org/handbook/Homepage">
 </head>
 
 <body>
