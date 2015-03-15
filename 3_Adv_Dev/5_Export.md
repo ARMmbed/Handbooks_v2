@@ -119,7 +119,7 @@ Make itself does not compile source code. It relies on a compiler like [GCC ARM 
 **Warning:** The current Makefile requires that your compiler is added to your PATH variable. This contradicts the instruction given on the installation website because those instructions are intended for Eclipse, not Make.
 </span>
 
-<span style="text-align:center; display:block; padding:20px">
+<span style="text-align:center; display:block;">
 ![](/3_Adv_Dev/Images/Exporting/Make1.png)
 </span>
 
@@ -159,14 +159,14 @@ The [IAR Embedded Workbench](http://www.iar.com/en/Products/IAR-Embedded-Workben
 
 To export your mbed program for use in the IAR Embedded Workbench, right-click the program in your program workspace. From the dialog, you can select the "Export To" as "IAR Systems", and the target microcontroller you wish to export for (currently, only the LPC1768 is supported):
 
-<span style="text-align:center; display:block; padding:20px">
+<span style="text-align:center; display:block;">
 ![](/3_Adv_Dev/Images/Exporting/IAR1.png)
 </span>
 
-When you choose export, a zip file containing all the files you need for the IAR Embedded Workbench will be generated. Unzip it and open the IAR Embedded Workbench workspace file ``.eww``:
+When you choose export, a zip file containing all the files you need for the IAR Embedded Workbench will be generated. Unzip it and open the IAR Embedded Workbench workspace file ``.eww``.
 
 After building the project, the binary file ``.bin``, ready to be flashed on the mbed, will be generated in the "Debug\Exe" directory:
 
-<span style="text-align:center; display:block; padding:20px">
+<span style="text-align:center; display:block;">
 ![](/3_Adv_Dev/Images/Exporting/IAR2.png)
 </span>
