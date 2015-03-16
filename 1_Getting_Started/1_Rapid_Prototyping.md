@@ -5,6 +5,7 @@ If you have a [board](http://developer.mbed.org/platforms/) and a [user on the m
 You can reuse a wealth of open source code and technical know-how from the official Handbook, community Cookbook and Components database as the foundation of your products.
 
 You can also contribute back fixes, libraries and support for other developers to help everyone get things done even faster.
+
 ##Assemble components
 
 The Components database contains community contributions for hundreds of popular components and peripherals. These include specifications, wiring diagrams, reusable libraries and “Hello World” examples on how to use each peripheral.
@@ -44,6 +45,7 @@ See our page on working [with the mbed community](4_Community/1_Intro/).
 </span>
 
 ##Collaborate with other developers
+
 Take some time to explore the tools we provide to help you collaborate with other developers. It can enable you to work on a your own projects and to help improve a public library.
 
 If you fix a bug in a library you can contribute the fix back. Coding new libraries is simple, and you can add API documentation using the built-in Doxygen engine and publish it to the community for others to use in their projects.
@@ -53,6 +55,7 @@ We use Mercurial on the backend to support distributed version control; forking,
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 See our pages on working [with the mbed community](4_Community/1_Intro/) or [writing a library](3_Adv_Dev/2_Write_Publish/).
 </span>
+
 ##Going to production
 
 <span style="float:right; display:block; padding:20px;">
@@ -65,17 +68,21 @@ When your prototype proves a success, the mbed platform can also help support yo
 The HDK is free for use in custom commercial designs, and the compiler can export to other professional toolchains if needed.
 
 Choosing the mbed platform means you are in the company of tens of thousands of developers who know the tools and have the expertise to help you on the path to production.
+
 ###Manufacturing your own hardware
+
 The mbed platform is designed to make it very fast to build and iterate prototypes, so you build the right product.
 
 Once you have your final prototype you’ll likely want to build your own custom hardware. Both the mbed SDK and HDK are free for commercial use, so you can move to the production phase of your project with confidence.
 
 Going to production can be daunting if you haven’t done it before. The prototype to production guide in the cookbook, board schematic / layout files in the HDK and the expertise in the mbed community can help with understanding the process of taking your prototype through to a manufacturable product.
+
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 See our page on the [mbed HDK](/2_Dev_Fun/4_HDK/).
 </span>
 
 ###Exporting to other professional tools
+
 As you progress to production, you may want to perform rigorous optimisation and testing of your software, or hand-off to a contractor or engineer familiar with different tools.
 
 The mbed Compiler is capable of exporting your projects to other professional toolchains. This export process packages up your code with any library dependencies and generates the tool specific project files to make the transition simple.
@@ -103,7 +110,6 @@ The mbed platform is being used in companies across the world to develop new gen
 We're always interested to hear your case studies so we can share details of products you have been creating, and help inform and inspire other developers that are earlier on in their journey to a finished product.
 
 If you or your company have an advanced prototype or product success you’d be happy to share, please let us know! We love to cross post to our blog and social media to help get the word out. Also consider adding your product to our showcase at [hackster.io/mbed](http://www.hackster.io/mbed/).
-
 
 ###Prototype to hardware
 
