@@ -22,6 +22,6 @@ pages:
 - ['3_Adv_Dev/4_Docu.md','Going Further','API Documentation']
 - ['3_Adv_Dev/5_Export.md','Going Further','Offline Toolchains']
 - ['4_Community/1_Intro.md','The mbed Community','The mbed Community']
-- ['4_Community/2_Questions.md','The mbed Community','Where to Ask Questions']
+- ['4_Community/2_Questions.md','The mbed Community','Getting Help']
 - ['4_Community/3_Cont_SDK_HDK.md','The mbed Community','Contributing']
 - ['4_Community/4_Edu.md','The mbed Community','Education']

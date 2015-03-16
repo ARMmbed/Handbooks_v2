@@ -15,7 +15,7 @@ When you are deciding which components to use, browsing the components database 
 There are also various existing domain-specific baseboards that pre-integrate useful components to help you prototype your software before designing the hardware.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See our [components page](http://developer.mbed.org/components/), [Cookbook](http://developer.mbed.org/cookbook/Homepage) and [baseboards list](http://developer.mbed.org/cookbook/Homepage#baseboards). 
+See our [components page](http://developer.mbed.org/components/), [cookbook](http://developer.mbed.org/cookbook/Homepage) and [baseboards list](http://developer.mbed.org/cookbook/Homepage#baseboards). 
 </span>
 
 ##Import libraries and get coding
