@@ -12,7 +12,7 @@ This document assumes that you are familiar with the C Programming Language, but
 The mbed library provides abstractions for the microcontroller (MCU) hardware (in particular drivers for the MCU peripherals) and it is divided in the following software layers and APIs:
 
 <span style="text-align:center; display:block;">
-![](/3_Adv_Dev/Images/Lib_Intern/Layers.png]
+![](/3_Adv_Dev/Images/Lib_Intern/Layers.png)
 </span>
 
 To port the mbed library to a new microcontroller you will have to provide the two software layers marked as "MCU dependent" in the above diagram.
@@ -44,7 +44,7 @@ Two target dependent directories:
 * ``mbed/targets/cmsis``: CMSIS-CORE sources
 
 <span style="text-align:center; display:block;">
-![](/3_Adv_Dev/Images/Lib_Intern/Direct.png]
+![](/3_Adv_Dev/Images/Lib_Intern/Direct.png)
 </span>
 
 ##MCU Registers
@@ -60,7 +60,7 @@ Silicon Vendors, like NXP, provide detailed user manuals describing the register
 This is a page from the [|LPC17xx user manual](http://www.nxp.com/documents/user_manual/UM10360.pdf describing the registers of the GPIO peripheral:
 
 <span style="text-align:center; display:block;">
-![](/3_Adv_Dev/Images/Lib_Intern/GPIO_R.png]
+![](/3_Adv_Dev/Images/Lib_Intern/GPIO_R.png)
 </span>
 
 ###Blinky example poking registers
@@ -68,11 +68,11 @@ This is a page from the [|LPC17xx user manual](http://www.nxp.com/documents/user
 Let's see how to blink an LED on our LPC1768 mbed simply poking these registers: 
 
 <span style="text-align:center; display:block;">
-![](/3_Adv_Dev/Images/Lib_Intern/Blinky1.png]
+![](/3_Adv_Dev/Images/Lib_Intern/Blinky1.png)
 </span>
 
 <span style="text-align:center; display:block; padding:20px;">
-![](/3_Adv_Dev/Images/Lib_Intern/Blinky2.png]
+![](/3_Adv_Dev/Images/Lib_Intern/Blinky2.png)
 </span>
 
 ```c
