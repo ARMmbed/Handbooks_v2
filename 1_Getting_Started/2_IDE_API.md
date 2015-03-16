@@ -96,14 +96,14 @@ See also the mbed [Memory Model](http://developer.mbed.org/handbook/Memory-Model
 
 ###Export to Offline Toolchains
 
-The [mbed C/C++ SDK](/2_Dev_Fun/3_old_SDK/) used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains, so we've also built in the ability to export directly to these toolchains! For example, if you'd like to migrate to a different toolchain as your project develops past prototype, you can choose to export an mbed project by right-clicking on it:
+The [mbed C/C++ SDK](/2_Dev_Fun/3_SDK/) used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains, so we've also built in the ability to export directly to these toolchains! For example, if you'd like to migrate to a different toolchain as your project develops past prototype, you can choose to export an mbed project by right-clicking on it:
 
 <span style="text-align:center; display:block;">
 ![](/1_Getting_Started/Images/Compiler/Compiler8.png)
 </span>
 
  <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See also the [SDK](/2_Dev_Fun/3_old_SDK/) and [Exporting to offline toolchains](/3_Adv_Dev/5_Export).
+See also the [SDK](/2_Dev_Fun/3_SDK/) and [Exporting to offline toolchains](/3_Adv_Dev/5_Export).
 </span>
 
 ##Feature Overview
