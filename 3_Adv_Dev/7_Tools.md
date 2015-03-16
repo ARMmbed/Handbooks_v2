@@ -20,7 +20,7 @@ We configured our version control systems (ie: git) to ignore this file.
 
 For example, if you want to change the path to your [GNU Tools for ARM Embedded Processors](https://launchpad.net/gcc-arm-embedded/4.7/4.7-2012-q4-major) to a path like ``c:/arm_gcc/bin``, you simply need to have a ``private_settings.py`` containing the following line:
 
-```c
+```python
 
 	GCC_ARM_PATH = "c:/arm_gcc/bin"
 ```
@@ -40,7 +40,7 @@ The mbed build system is composed of two scripts:
 
 Both share a subset of options to specify the target microcontroller and the toolchain:
 
-```c
+```python
 
 	-m MCU -t TOOLCHAIN
 ```
@@ -68,14 +68,14 @@ If a target and a toolchain are not specified, the build script will build the m
 
 If, for example, you want to build the mbed library for the LPC1768 mbed using the ARM GCC toolchain:
 
-```c
+```python
 
 	> python workspace_tools\build.py -m LPC1768 -t GCC_ARM
 ```
 
 This is an example output:
 
-```c
+```python
 
 	>>> BUILD LIBRARY CMSIS (LPC1768, GCC_ARM)
 	Copy: LPC1768.ld
@@ -108,7 +108,7 @@ Make is used to build and run one of the test projects defined in the following 
 Each test project is specified by a simple python dictionary of the type:
 
 
-```c
+```python
 
 	TESTS = [
 		# Automated MBED tests
@@ -129,7 +129,7 @@ Each test project is specified by a simple python dictionary of the type:
 
 All these project specifications are contained in the ``TEST`` list. If you launch the "make" script without any option, the script will print a list of all the available tests with their correspondent number:
 
-```c
+```python
 
 	> python workspace_tools\make.py
 
@@ -156,7 +156,7 @@ On top of building a test project, the "make" script can actually program and re
 
 For example, to build the "Basic" test project (number: ``0``) for a ``LPC1768`` mbed using the ``ARM GCC`` toolchain, flashing the resulting binary on the disk ``E:\`` and interfacing to the serial port ``COM4``:
 
-```c
+```python
 
 	> python workspace_tools\make.py -m LPC1768 -t GCC_ARM -d E:\ -s COM41 -p 0
 ```
@@ -170,7 +170,7 @@ To drive the serial port with ``make.py`` you will need to install the [pyserial
 This is an example output:
 
 
-```c
+```python
 	
 	>>> BUILD PROJECT: BASIC (LPC1768, GCC_ARM)
 	Compile: main.cpp
@@ -220,7 +220,7 @@ To test exporter scripts run the project.py with options for the MCU and the tar
 
 ``example_Keil_uVision_project_for_FRDM-K64F_with_test_0``
 
-```c
+```python
 
 	$  python project.py -m K64F -i uvision -p 0
 ```
