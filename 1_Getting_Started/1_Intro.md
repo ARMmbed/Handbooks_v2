@@ -1,4 +1,4 @@
-#Getting Started
+#Introduction to mbed
 
 This section will lead you through the process of creating a prototype on an mbed board:
 
