@@ -2,7 +2,9 @@
 
 If you want to use the [online IDE](https://developer.mbed.org/compiler/) or participate in the [mbed community](https://developer.mbed.org/forum/), you'll need a user on [developer.mbed.org](https://developer.mbed.org/account/signup/).
 
+<a name="Platform">
 #Platform Registration
+</a>
 
 Once you have an account you can register platforms - they will be associated with your account and you'll be able to select them as a target in the compiler. 
 
