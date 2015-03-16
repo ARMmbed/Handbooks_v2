@@ -8,4 +8,4 @@ We've also made contributing back is easy; you can publish a library to mbed.org
 
 You can join the [discussions on the forum](http://developer.mbed.org/forum/) or ask [questions](http://developer.mbed.org/questions/). And don't forget to [read the blog](http://developer.mbed.org/blog/).
 
-For information about asking questions and dealing with problems, see [the next section](http://developer.mbed.org/handbook/Help).
+For information about asking questions and dealing with problems, see [the Getting Help section](/4_Community/2_Questions/).
