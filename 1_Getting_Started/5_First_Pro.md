@@ -84,10 +84,7 @@ This is the end of the loop; since the loop's condition is "1", meaning it's alw
 ##Changing the code
 </a>
 
-###Adding LEDs
-
-
-####Sequencing
+###Sequential LEDs
 
 Your board likely has more than one LED; you can have your LEDs blink in sequence:
 
@@ -112,7 +109,7 @@ Your board likely has more than one LED; you can have your LEDs blink in sequenc
 	}
 ```
 
-####Concurrent
+###Concurrent LEDs
 
 Alternatively, you can have both LEDs blink at the same time:
 
