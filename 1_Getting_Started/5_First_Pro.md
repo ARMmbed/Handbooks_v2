@@ -88,6 +88,8 @@ This is the end of the loop; since the loop's condition is "1", meaning it's alw
 ##Changing the code
 </a>
 
+You can use ``Blinky`` to get used to mbed and the compiler before moving on to [your prototyping](/1_Getting_Started/1_Rapid_Prototyping/).
+
 ###Sequential LEDs
 
 Your board likely has more than one LED; you can have your LEDs blink in sequence:
