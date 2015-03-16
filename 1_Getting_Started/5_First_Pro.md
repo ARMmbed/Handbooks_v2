@@ -42,6 +42,10 @@ The [next section](#understand) explains the code line by line, and assumes you'
 
 Let's review it line by line:
 
+``#include "mbed.h"``
+
+Our program relies on pre-existing code, available in a file called ``mbed.h`` that was imported along with ``main.cpp()``. But just because we imported them together doesn't mean that the compiler will know to keep them together; if we want the file to be included when we build our program (and we do, because we're using code that exists in it) we have to explicitly tell the compiler to include it.
+
 ``DigitalOut myled(LED1);``
 
 DigitalOut is the [API class](http://developer.mbed.org/handbook/DigitalOut) that handles output to digital pins. In this line, we created a new object of type ``DigitalOut``, call it "myled" and specify that it refers to ``LED1`` - the first LED on the board.
