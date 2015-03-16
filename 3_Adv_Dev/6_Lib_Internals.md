@@ -1,0 +1,1 @@
+http://developer.mbed.org/handbook/mbed-library-internals
