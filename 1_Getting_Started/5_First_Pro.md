@@ -28,7 +28,11 @@ You can get Blinky working in just a few minutes.
 
 #Understanding and changing the code
 
-##Code review
+The [next section](#understand) explains the code line by line, and assumes you've never worked with C++ before. If you're comfortable with the code, skip to the fun bits - [changing the code](#change) - to see some more possibilities. 
+
+<a name="understand">
+##Understanding the code
+</a>
 
 ``Blinky`` is a very short piece of code. In the compiler, click ``main.cpp`` to see the code.
 
@@ -60,10 +64,10 @@ As we said above, "1" to a computer means "TRUE". In the context of output (send
 
 ``wait(0.2);``
 
-``Wait`` is a delay in the function's run. Since the program runs from line to line (sequentially) as fast as it can, if we want the LED to be on or off for a period that the human eye can actually perceive, we have to ask the program to wait between turning the LED on and off. In this case, we tell it to wait 0.2 seconds.
+"Wait" is a delay in the function's run. Since the program runs from line to line (sequentially) as fast as it can, if we want the LED to be on or off for a period that the human eye can actually perceive, we have to ask the program to wait between turning the LED on and off. In this case, we tell it to wait 0.2 seconds.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-**Tip:** we don't ned to specify that it's seconds; the ``wait`` function, as defined on the API, simply assumes that any value you send is in seconds. There are other functions that use different values, such as microseconds (``wait_us``) or milliseconds (``wait_ms``).
+**Tip:** we don't need to specify that it's seconds; the ``wait`` function, as defined on the API, simply assumes that any value you send is in seconds. There are other functions that use different values, such as microseconds (``wait_us``) or milliseconds (``wait_ms``).
 </span>
 
 ``myled = 0``
@@ -75,6 +79,61 @@ As we said above, "1" to a computer means "TRUE". In the context of output (send
 We again ask the program to wait before moving on to the next line. 
 
 This is the end of the loop; since the loop's condition is "1", meaning it's always TRUE and never stops running, we'll now go back to our first line: ``myled = 1``, and turn the LED on again. And so on and so forth.
-  
+ 
+<a name="change">
 ##Changing the code
+</a>
+
+###Adding LEDs
+
+
+####Sequencing
+
+Your board likely has more than one LED; you can have your LEDs blink in sequence:
+
+```c
+
+	#include "mbed.h"
+
+	DigitalOut myled1(LED1);
+	DigitalOut myled2(LED2); //adds another myled object, referring to the second LED on the board
+
+	int main() {
+    		while(1) {
+        		myled1 = 1; //turn on first LED
+        		wait(0.2);
+        		myled1 = 0; //turn off first LED
+        		wait(0.2);
+        		myled2 = 1; //turn on second LED
+        		wait(0.2);
+        		myled2 = 0; //turn off second LED
+        		wait(0.2);
+    		}
+	}
+```
+
+####Concurrent
+
+Alternatively, you can have both LEDs blink at the same time:
+
+```c
+
+	#include "mbed.h"
+
+	DigitalOut myled1(LED1);
+	DigitalOut myled2(LED2);
+
+
+	int main() {
+    		while(1) {
+        		myled1 = 1;
+        		myled2 = 1; //although these lines are executed one after the other, not both at once, the time between them is so short that to us it seems concurrent
+        		wait(0.2);
+        		myled1 = 0;
+        		myled2 = 0;
+        		wait(0.2);
+    		}
+	}
+```
+
 
