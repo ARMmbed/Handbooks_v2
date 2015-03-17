@@ -26,7 +26,7 @@ pages:
 - ['Adv_Dev/Tools.md','Going Further','mbed Tools']
 - ['Adv_Dev/SDK_Porting.md','Going Further','SDK Porting']
 - ['Adv_Dev/Interface_Firmware.md','Going Further','CMSIS-DAP Interface Firmware']
-- ['Adv_Dev/1Mem_Mo.md','Going Further','Memory Model']
+- ['Adv_Dev/Mem_Mo.md','Going Further','Memory Model']
 - ['Community/Intro.md','The mbed Community','The mbed Community']
 - ['Community/Cont_SDK_HDK.md','The mbed Community','Contributing']
 - ['Community/Edu.md','The mbed Community','Education']
