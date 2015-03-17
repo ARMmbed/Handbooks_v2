@@ -6,29 +6,27 @@ The first program we'll use is a test program - it's meant to show you that your
 
 To get this program going, all you need is: 
 
-+ A BLE-enabled mbed board.
++ A BLE-enabled mbed board. Don't forget to [add it to your compiler and select it as the target](/1_Getting_Started/3_User_Plat_Reg#Platform/).
 
-+ A user on [developer.mbed.org](developer.mbed.org) to access the compiler.
++ A user account on [developer.mbed.org](https://developer.mbed.org/account/signup/) to access the compiler.
 
 #Getting Blinky on your board
 
 You can get Blinky working in just a few minutes.
 
-1. Open the compiler and select or add your board. If you forgot how that's done, see the [Platform Registration section](/1_Getting_Started/3_User_Plat_Reg#Platform/).
-
 2. Import [``Blinky``](http://developer.mbed.org/teams/mbed/code/mbed_blinky/) to your compiler. If you forgot how that's done, see the [IDE section](/1_Getting_Started/4_Using_IDE/).
 
-3. Compile the code. It will be downloaded to your Downloads folder (on some browsers you may need to specify a download location).
+3. Compile the code. When prompted, save it to your Downloads folder.
 
 4. Drag and drop the compiled file to your board.
 
-5. Restart the board.
+5. If your board does not restart itself, restart it manually by pressing the Restart button.
 
 6. The LED will flash.
 
 #Understanding and changing the code
 
-The [next section](#understand) explains the code line by line, and assumes you've never worked with C++ before. If you're comfortable with the code, skip to the fun bits - [changing the code](#change) - to see some more possibilities. 
+The [next section](#understand) explains the code line by line. If you're comfortable with the code, skip to the fun bits - [changing the code](#change) - to see some more possibilities. 
 
 <a name="understand">
 ##Understanding the code
@@ -39,6 +37,7 @@ The [next section](#understand) explains the code line by line, and assumes you'
 <span style="text-align:center; display:block;">
 ![Blinky main.cpp](/1_Getting_Started/Images/Blinky/OpeningBlinky.png)
 </span>
+<span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">*Clicking on ``main.cpp`` in the tree opens that file in the main area*</span>
 
 Let's review it line by line:
 
@@ -64,7 +63,7 @@ While is a type of loop that says "keep running the code I contain so long as my
 
 ``myled = 1;``
 
-As we said above, "1" to a computer means "TRUE". In the context of output (sending a command) to a digital pin (our LED), this means "send current", meaning the LED will be on.
+As we said above, "1" to a computer means "TRUE". In the context of output (sending a command) to a digital pin (our LED), this means "send high current". If the LED is positive, it will be turned on; if it's negative, it will be turned off.
 
 ``wait(0.2);``
 
@@ -76,7 +75,8 @@ As we said above, "1" to a computer means "TRUE". In the context of output (send
 
 ``myled = 0``
 
-"0" is the opposite of "1", and means "FALSE". In the context of output (sending a command) to a digital pin (our LED), this means "stop current", meaning the LED will be off.
+"0" is the opposite of "1", and means "FALSE". In the context of output (sending a command) to a digital pin (our LED), this means "send low current". If the LED is positive, it will be turned off; if it's negative, it will be turned on.
+
 
 ``wait(0.2)``
 
@@ -138,5 +138,83 @@ Alternatively, you can have both LEDs blink at the same time:
     		}
 	}
 ```
+
+###Changing LED timing
+
+The ``wait()`` function delays the execution of the next line of code. We can change its values to change the timing of the LED sequence:
+
+```c
+
+	#include "mbed.h"
+
+	// My board has four LEDs, numbered from 1 to 4, so I create four LED objects
+	DigitalOut myled1(LED1);
+	DigitalOut myled2(LED2);
+	DigitalOut myled3(LED3);
+	DigitalOut myled4(LED4);
+
+	int main() {
+		while(1) {
+		// The total time for each LED is five seconds, made up of (time on) + (time off)
+			myled1 = 1; //my board's LEDs are positive, so the output 1 (high current) turns them on
+			wait(1);
+			myled1 = 0;
+			wait(4);
+			myled2 = 1;
+			wait(2);
+			myled2 = 0;
+			wait(2);
+			myled3 = 1;
+			wait(3);
+			myled3 = 0;
+			wait(4);
+			myled4 = 1;	
+			wait(4);
+			myled4 = 0;
+			wait(1);   
+		}
+	}
+```
+
+###Multi-colour LEDs
+
+Some boards have LEDs with more than one colour. For example, [this platform](http://developer.mbed.org/platforms/FRDM-K64F/) has three LEDs: red, green and blue. The platform's page shows as a schematic that - among other things - shows us the pins that are mapped to each LED:
+
+<span style="text-align:center; display:block;">
+![LED mapping](/1_Getting_Started/Images/Blinky/RGB_LEDs.png)
+</span>
+<span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">*LED1 is red, LED2 is green and LED3 is blue*</span>
+
+Because the multi-colour LEDs are mapped to LED1, LED2 and LED3 we can use one of our earlier Blinky variations to run the multi-coloured LEDs. For example, if I want to run the program from the pervious section (which focused on ``wait()``), the only thing I need to do is remove the fourth LED from the code (since there are only three LEDs on my multi-colour board):
+
+```c
+
+	#include "mbed.h"
+
+	// This board has three LEDs, so I create three objects
+	DigitalOut myled1(LED1);
+	DigitalOut myled2(LED2);
+	DigitalOut myled3(LED3);
+	
+	int main() {
+		while(1) {
+			myled1 = 1; //this is the red LED
+			wait(1);
+			myled1 = 0;
+			wait(4);
+			myled2 = 1; //this is the green LED
+			wait(2);
+			myled2 = 0;
+			wait(2);
+			myled3 = 1; //this is the blue LED
+			wait(3);
+			myled3 = 0;
+			wait(4);
+		}
+	}
+```
+
+It would have been neater to change the timings, as the five-second total was designed for a four-LED board, but we wanted to see that the only important change is accounting for the correct number of LEDs.
+
 
 
