@@ -93,7 +93,7 @@ With the CMSIS-DAP upgrade, clicking the download button within uVision will sen
 ![](/Adv_Dev/Images/CMSIS/CMSIS4.png)
 </span>
 
-=== 4.3 Debug ===
+###4.3 Debug
 
 Add break points (1) by clicking on the line of code you wish to stop at, and use the "run" button (2) to execute the program until the break point it hit.
 
