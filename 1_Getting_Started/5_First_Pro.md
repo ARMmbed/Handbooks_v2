@@ -216,5 +216,8 @@ Because the multi-colour LEDs are mapped to LED1, LED2 and LED3 we can use one o
 
 It would have been neater to change the timings, as the five-second total was designed for a four-LED board, but we wanted to see that the only important change is accounting for the correct number of LEDs.
 
+#Summary
 
+mbed boards require a knowledge of C++, but thanks to the API abstractions you don't have to understand the hardware other than at the basic level of recognising the correct name of the circuit you're trying to work with (using the schematics available for each board). As we saw in the Blinky samples, the APIs also provide commonly used functions such as ``wait()``.
 
+To explore other samples and learn of more API functions and abstractions, see our [code samples](http://developer.mbed.org/code/) and the [API breakdown](/2_Dev_Fun/2_API_Libs_Breakdown/).
