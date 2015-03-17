@@ -1,5 +1,3 @@
-http://developer.mbed.org/handbook/cmsis-dap-interface-firmware
-
 #CMSIS-DAP Interface Firmware
 
 The source code of the mbed HDK (tools + libraries) is available in [this repository](https://github.com/mbedmicro/CMSIS-DAP).

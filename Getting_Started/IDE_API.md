@@ -130,7 +130,7 @@ Built-in Version Control and Collaboration tools
  
 * [Built-in version control](/Adv_Dev/Comp_Ver_Cont/) (DVCS).
  
-* Publish, fork, push and pull code in [collaboration-enabled environment](/Getting_Started/Collab/).
+* Publish, fork, push and pull code in [collaboration-enabled environment](/Community/Collab/).
  
 * View graphs, diffs, change sets.
 
