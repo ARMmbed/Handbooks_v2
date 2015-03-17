@@ -88,7 +88,7 @@ On reset, the RAM is an undefined state and those initialised variables have to 
 ![](/Adv_Dev/Images/Memory/Memory_Sections.png)
 </span>
 
-=== Heap and Stack ===
+###Heap and Stack
 
 The last two sorts of information are the local variables which will exist on the stack, and the dynamically created data which will exist in the heap. 
 

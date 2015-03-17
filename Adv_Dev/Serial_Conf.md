@@ -4,9 +4,7 @@ The mbed serial port works by default on Mac and Linux, but Windows needs a driv
 
 ##Download the mbed Windows serial port driver
 
-Download the installer to your PC, e.g. your desktop.
-
-[Download latest driver](http://developer.mbed.org/media/downloads/drivers/mbedWinSerial_16466.exe)
+[Download the installer](http://developer.mbed.org/media/downloads/drivers/mbedWinSerial_16466.exe) to your PC, e.g. your desktop.
 
 ##Run the installer
 
@@ -18,7 +16,6 @@ It will take some time (especially on Vista), and pop up a few 'unsigned driver'
 
 * [Serial PC](/Adv_Dev/PC_Com/) - Communication with a PC
 * [Terminals](/Adv_Dev/Terminals/) -  Guide to using terminal applications
-
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 ***Troubleshooting***
