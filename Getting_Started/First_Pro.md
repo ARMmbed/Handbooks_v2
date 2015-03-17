@@ -220,4 +220,4 @@ It would have been neater to change the timings, as the five-second total was de
 
 mbed boards require a knowledge of C++, but thanks to the API abstractions you don't have to understand the hardware other than at the basic level of recognising the correct name of the circuit you're trying to work with (using the schematics available for each board). As we saw in the Blinky samples, the APIs also provide commonly used functions such as ``wait()``.
 
-To explore other samples and learn of more API functions and abstractions, see our [code samples](http://developer.mbed.org/code/) and the [API breakdown](/Dev_Fun/API_Libs_Breakdown/).
+To explore other samples and learn of more API functions and abstractions, see our [code samples](http://developer.mbed.org/teams/mbed_example/) and the [API breakdown](/Dev_Fun/API_Libs_Breakdown/).
