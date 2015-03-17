@@ -48,5 +48,5 @@ Here is the video that shows how you get started:
 
 <span style="text-align:center; display:block; padding:20px;">
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BWM21JzSDSs" target="_blank"><img src="http://img.youtube.com/vi/BWM21JzSDSs/0.jpg" 
-alt="The mbed compiler" width="480" height="360" border="10" /></a>
+alt="Synchronization" width="480" height="360" border="10" /></a>
 </span>

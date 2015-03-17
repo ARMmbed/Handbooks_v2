@@ -18,7 +18,7 @@ There are several reasons for the introduction of CMSIS-DAP:
 
 As mentioned earlier, CMSIS-DAP has to be implemented on an Interface Chip. This chip provides the link between the host computer (over USB for instance) and the target that has to be debugged (over SWD or JTAG). 
 
-On the mbed hardware, the CMSIS-DAP firmware has been implemented on the [mbed interface](/Adv_Dev/mbed_Interface/) as part of the mbed HDK. In addition to the Mass Storage and the Virtual Serial Port interfaces, an HID endpoint is used to establish a CMSIS-DAP communication link with a debugger.
+On the mbed hardware, the CMSIS-DAP firmware has been implemented on the [mbed interface](/Getting_Started/mbed_Interface/) as part of the mbed HDK. In addition to the Mass Storage and the Virtual Serial Port interfaces, an HID endpoint is used to establish a CMSIS-DAP communication link with a debugger.
 
 <span style="display:block; text-align:center; padding:20px;">
 ![Communication with a debugger](/Dev_Fun/Images/CMSIS.png "CMSIS-DAP communication with a debugger across a USB connection")
