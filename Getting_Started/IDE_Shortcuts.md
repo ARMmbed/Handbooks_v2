@@ -70,7 +70,7 @@
 <tr><td>F10</td><td>Compile All &amp; Download (clean build)</td></tr>
 </tbody></table>
 
-
+<br />
 ##Touch device shortcuts
 
 ###Editor
