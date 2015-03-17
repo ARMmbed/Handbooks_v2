@@ -4,7 +4,7 @@
 
 ###Navigation
 
-<table style="width:100%; background-color:#D8D8D8"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
+<table style="width:100%; background-color:#c9c9c9"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
 <tr><td>Hold Ctrl</td><td>Interactive mode</td></tr>
 <tr><td>Shift-Home</td><td>Go to beginning of line and select from current position</td></tr>
 <tr><td>Shift-End</td><td>Go to end of line and select from current position</td></tr>
@@ -21,10 +21,10 @@
 <tr><td>Ctrl-Down Arrow</td><td>Scroll down 1 row</td></tr>
 </tbody></table>
 
-
+<br />
 ###Ctrl-key sequences
 
-<table style="width:100%; background-color:#D8D8D8"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
+<table style="width:100%; background-color:#c9c9c9"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
 <tr><td>Ctrl-A</td><td>Select All</td></tr>
 <tr><td>Ctrl-B</td><td>Compile Only (no download prompt)</td></tr>
 <tr><td>Ctrl-Shift-B</td><td>Compile All &amp; Download (clean build)</td></tr>
@@ -54,10 +54,10 @@
 <tr><td>Ctrl-Shift-/</td><td>Toggle block comment (using /* ... */ markup)</td></tr>
 </tbody></table>
 
-
+<br />
 ###Misc
 
-<table style="width:100%; background-color:#D8D8D8"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
+<table style="width:100%; background-color:#c9c9c9"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
 <tr><td>Tab</td><td>Increase indent of text selection</td></tr>
 <tr><td>Shift-Tab</td><td>Decrease indent of text selection</td></tr>
 <tr><td>ESC</td><td>Close Find or toggle Fullscreen</td></tr>
@@ -75,7 +75,7 @@
 
 ###Editor
 
-<table style="width:100%; background-color:#D8D8D8"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
+<table style="width:100%; background-color:#c9c9c9"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
 <tr><td>Single Tap</td><td>Move the cursor</td></tr>
 <tr><td>Double Tap</td><td>Text selection on the tapped word (opens context menu)</td></tr>
 <tr><td>Triple Tap</td><td>Text selection on the tapped row (opens context menu)</td></tr>
@@ -83,10 +83,10 @@
 <tr><td>Touch-Drag</td><td>Text selection until the touch is released (opens context menu)</td></tr>
 </tbody></table>
 
-
+<br />
 ###Compiler IDE
 
-<table style="width:100%; background-color:#D8D8D8"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
+<table style="width:100%; background-color:#c9c9c9"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
 <tr><td>Single Tap</td><td>Equivalent to single mouse click</td></tr>
 <tr><td>Double Tap</td><td>Equivalent to double mouse click</td></tr>
 <tr><td>Tap Hold</td><td>Equivalent to right click (context menu)</td></tr>
