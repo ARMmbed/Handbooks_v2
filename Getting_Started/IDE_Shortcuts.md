@@ -21,6 +21,7 @@
 <tr><td>Ctrl-Down Arrow</td><td>Scroll down 1 row</td></tr>
 </tbody></table>
 
+
 ###Ctrl-key sequences
 
 <table style="width:100%; background-color:lightblue"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
@@ -53,6 +54,7 @@
 <tr><td>Ctrl-Shift-/</td><td>Toggle block comment (using /* ... */ markup)</td></tr>
 </tbody></table>
 
+
 ###Misc
 
 <table style="width:100%; background-color:lightblue"; border="1;"><tbody><tr><th width=25%>Shortcut</th><th>Description</th></tr>
@@ -68,6 +70,7 @@
 <tr><td>F10</td><td>Compile All &amp; Download (clean build)</td></tr>
 </tbody></table>
 
+
 ##Touch device shortcuts
 
 ###Editor
@@ -79,6 +82,7 @@
 <tr><td>Tap Hold</td><td>Context menu</td></tr>
 <tr><td>Touch-Drag</td><td>Text selection until the touch is released (opens context menu)</td></tr>
 </tbody></table>
+
 
 ###Compiler IDE
 
