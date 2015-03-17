@@ -28,7 +28,7 @@ pages:
 - ['Adv_Dev/Comp_Ver_Cont.md','Going Further','Compiler Version Control']
 - ['Adv_Dev/SDK_Porting.md','Going Further','SDK Porting']
 - ['Adv_Dev/Terminals.md','Going Further','Terminals']
-- ['Adv_Dev/Serial.md','Going Further','Serial']
+- ['Adv_Dev/Serial.md','Going Further','The Serial Protocol']
 - ['Adv_Dev/Serial_Conf.md','Going Further','Windows Serial Configuration']
 - ['Adv_Dev/Mem_Mo.md','Going Further','Memory Model']
 - ['Dev_Fun/CMSIS.md','CMSIS','The CMSIS-DAP']
