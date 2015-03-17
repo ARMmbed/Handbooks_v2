@@ -3,7 +3,7 @@
 You can use the version control features to let you version, branch and merge code, with a nice representation of the state of your project history:
  
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images_Compiler/Compiler1.png)
+![](/Adv_Dev/Images/Compiler/Compiler1.png)
 </span>
 
 The approach should be familiar to those of you with experience of distributed version control models (as used by mercurial/git); each program and library has its own local repository, so you can commit and perform actions on it within your own workspace (such as switching, branching, showing changes). 
@@ -30,7 +30,7 @@ There is also the option to "Discard" your working copy, and "Revert" your worki
 You can see the changes between your current working copy to the previous revision, and changes between revisions.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images_Compiler/Compiler2.png)
+![](/Adv_Dev/Images/Compiler/Compiler2.png)
 </span>
 
 ##Sub-repositories and synchronization
