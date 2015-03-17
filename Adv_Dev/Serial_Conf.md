@@ -1,0 +1,1 @@
+http://developer.mbed.org/handbook/Windows-serial-configuration

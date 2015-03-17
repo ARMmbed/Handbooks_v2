@@ -1,0 +1,1 @@
+http://developer.mbed.org/handbook/Compiler-shortcuts-and-controls
