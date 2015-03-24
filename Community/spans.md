@@ -1,5 +1,5 @@
 <span style="-webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;
-border-collapse: collapse; font-family: 'Lucida Grande'; font-size: 16px; line-height: normal;
+border-collapse: collapse; font-family: 'Lucida Grande'; font-size: 18px; line-height: normal;
 white-space: pre-wrap;"><script language="javascript" type="text/javascript">
 //<![CDATA[
   function toggleDiv(divid){
@@ -12,10 +12,15 @@ white-space: pre-wrap;"><script language="javascript" type="text/javascript">
 //]]>
 </script>
 
-<a href="javascript:;" onmousedown="toggleDiv('mydiv');">Question</a>
-<div id="mydiv" style="display:none;">
-<h3 style="font-size:14px">Answer</h3>
+<a href="javascript:;" onmousedown="toggleDiv('question1');">Question One</a>
+<div id="question1" style="display:none;">
+<h3 style="font-size:16px; font-color:black;">Answer</h3>
 </div></span>
 
+<a href="javascript:;" onmousedown="toggleDiv('question2');">Question Two</a>
+<div id="question2" style="display:none;">
+<h3 style="font-size:16px">Another answer<br />
+With more than one line</h3>
+</div></span>
 
 
