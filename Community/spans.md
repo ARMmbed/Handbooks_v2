@@ -10,8 +10,12 @@ white-space: pre-wrap;"><script language="javascript" type="text/javascript">
     }
   }
 //]]>
-</script><a href="javascript:;" onmousedown="toggleDiv('mydiv');">Click here to view my notes</a>
-<div id="mydiv" style="display:none">
-<h3>These are my notes.<br />
-I can hide anything here.</h3>
+</script>
+
+<a href="javascript:;" onmousedown="toggleDiv('mydiv');">Question</a>
+<div id="mydiv" style="display:none; font-size:16px;">
+<h3 style="font-size:10px">Answer</h3>
 </div></span>
+
+
+
