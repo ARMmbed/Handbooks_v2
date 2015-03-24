@@ -12,14 +12,14 @@ white-space: pre-wrap;"><script language="javascript" type="text/javascript">
 //]]>
 </script>
 
-<a href="javascript:;" onmousedown="toggleDiv('question1');">Question One</a>
+<a href="javascript:;" onmousedown="toggleDiv('question1');" style="font-size:20px; font-color:blue; font-weight:bold;">Question One</a>
 <div id="question1" style="display:none;">
-<h3 style="font-size:16px; font-color:black;">Answer</h3>
+<h3 style="font-size:16px; font-color:black; font-weight:normal;">Answer</h3>
 </div></span>
 
-<a href="javascript:;" onmousedown="toggleDiv('question2');">Question Two</a>
+<a href="javascript:;" onmousedown="toggleDiv('question2');" style="font-size:20px; font-color:blue; font-weight:bold;">Question Two</a>
 <div id="question2" style="display:none;">
-<h3 style="font-size:16px">Another answer<br />
+<h3 style="font-size:16px; font-color:black; font-weight:normal;">Another answer<br />
 With more than one line</h3>
 </div></span>
 
