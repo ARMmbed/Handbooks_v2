@@ -39,7 +39,7 @@ This is a warning
 </div>
 
 <div id="imagec">
-![](/Dev_Fun/Images/Dev_Fun.png)
+<img src="/Dev_Fun/Images/EvaluationBoard.png">
 </div>
 <div id="caption">
 This is a caption, the image should be centred
