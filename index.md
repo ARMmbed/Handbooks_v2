@@ -14,7 +14,7 @@ mbed gives you everything you need to be able to work with a wide selection of A
 ##About the handbook
 
 <div id="note">
-**Note**: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
+<b>Note</b>: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
 </div>
 
 This handbook has been migrated from [developer.mbed.org](developer.mbed.org) with only mild changes (mostly rearrangement). It covers:
