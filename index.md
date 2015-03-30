@@ -9,7 +9,7 @@ Welcome to the mbed v2 handbook; we're here to help you get started with an mbed
 
 ##About mbed
 
-mbed gives you everything you need to be able to work with a wide selection of ARM-based boards: an on-line development environment, an SDK and an HDK.
+mbed provides a way of prototyping hardware-based projects and products by giving you the hardware (ARM-processors on a board, and external components) and the ability to write software to control it (using the mbed API and IDE). 
 
 ##About the handbook
 
