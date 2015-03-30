@@ -42,4 +42,4 @@ pages:
 - ['Community/Edu.md','The mbed Community','Education']
 - ['Community/spans.md','The mbed Community','spans']
 
-extra_css: FullCSS.css
+extra_css: ['FullCSS.css']
