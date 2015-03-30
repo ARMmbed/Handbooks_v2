@@ -1,3 +1,7 @@
+<head>
+<link href="FullCSS.css" type="text/css" rel="stylesheet"></link>
+</head>
+
 <span style="-webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;
 border-collapse: collapse; font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif; font-size: 18px; line-height: normal;
 white-space: pre-wrap;"><script language="javascript" type="text/javascript">
