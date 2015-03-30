@@ -30,5 +30,18 @@ With more than one line</h3>
 
 
 <div id="note">
-Trying css work
+This is a note
 </div>
+
+
+<div id="warning">
+This is a warning
+</div>
+
+<div id="imagec">
+![](/Dev_Fun/Images/Dev_Fun.png)
+</div>
+<div id="caption">
+This is a caption, the image should be centred
+</div>
+
