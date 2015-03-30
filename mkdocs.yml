@@ -10,7 +10,7 @@ pages:
 - ['Dev_Fun/API_Libs.md','Introduction','The APIs']
 - ['Getting_Started/How_mbed_Works.md','Introduction','How mbed Works']
 - ['Getting_Started/mbed_Interface.md','Introduction','The mbed Interface']
-- ['Getting_Started/Intro.md','Getting Started', 'Intro to mbed']
+- ['Getting_Started/Intro.md','Getting Started', 'Working with mbed']
 - ['Getting_Started/User_Plat_Reg.md','Getting Started','User and Platform Registration']
 - ['Getting_Started/Using_IDE.md','Getting Started','Using the Compiler']
 - ['Getting_Started/IDE_Shortcuts.md','Getting Started','Compiler Keyboard Shortcuts']
