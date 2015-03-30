@@ -40,6 +40,5 @@ pages:
 - ['Community/Cont_SDK_HDK.md','The mbed Community','Contributing']
 - ['Community/Collab.md','The mbed Community','Collaboration']
 - ['Community/Edu.md','The mbed Community','Education']
-- ['Community/spans.md','The mbed Community','spans']
 
 extra_css: ['FullCSS.css']
