@@ -2,9 +2,9 @@ site_name: mbed v2 Handbook
 
 pages:
 - ['index.md','Introduction to Version 2']
-- ['Getting_Started/Plat_Comp_Intro.md','Introduction','Platforms and Components']
-- ['Getting_Started/Rapid_Prototyping.md','Introduction','Rapid Prototyping']
-- ['Getting_Started/IDE_API.md','Introduction','The IDE and API']
+- ['Introduction/Plat_Comp_Intro.md','Introduction','Platforms and Components']
+- ['Introduction/Rapid_Prototyping.md','Introduction','Rapid Prototyping']
+- ['Introduction/IDE_API.md','Introduction','The IDE and API']
 - ['Introduction/SDK.md','Introduction','The SDK']
 - ['Introduction/HDK.md','Introduction','The HDK']
 - ['Introduction/API_Libs.md','Introduction','The APIs']
