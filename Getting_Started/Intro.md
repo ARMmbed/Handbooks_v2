@@ -18,7 +18,7 @@ We'll look at the extended process, which includes creating a user and registeri
 
 2. [User and platform registration](/Getting_Started/User_Plat_Reg/). 
 
-1. [Boards and components](/Getting_Started/Plat_Comp_Intro/). 
+1. [Boards and components](/Introduction/Plat_Comp_Intro/). 
 
 3. [Working with the mbed compiler](/Getting_Started/Using_IDE/) and [some shortcuts](/Getting_Started/IDE_Shortcuts/).
 

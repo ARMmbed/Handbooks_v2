@@ -92,3 +92,5 @@
 <tr><td>Tap Hold</td><td>Equivalent to right click (context menu)</td></tr>
 <tr><td>Touch-Drag</td><td>Equivalent to mouse dragging</td></tr>
 </tbody></table>
+<br />
+<br />

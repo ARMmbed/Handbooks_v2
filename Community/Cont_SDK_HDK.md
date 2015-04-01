@@ -9,5 +9,5 @@ You can also contribute to the mbed SDK and HDK.
 
 * Open Source mbed HDK:
 	* [Debug using CMSIS-DAP](/CMSIS/CMSIS/)
-	* [Using the HDK](/Development/HDK/)
+	* [Using the HDK](/Introduction/HDK/)
 	* [Porting to a new target](/CMSIS/Interface_Firmware/)

@@ -45,7 +45,7 @@ Our goal with the mbed Compiler and mbed SDK is to enable a consistent and stabl
 
 However, the mbed C/C++ SDK used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains!
 
-If you'd like to use the [mbed platforms](developer.mbed.org/platforms/) or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
+If you'd like to use the [mbed platforms](http://developer.mbed.org/platforms/) or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 You can read more about this on the [Exporting to offline toolchains](/Going_Further/Export/) handbook page.
@@ -66,7 +66,7 @@ If you are interested in delving in the depth of the mbed SDK implementation you
 and you can use the mbed library sources, instead of one of its builds:
 [Import the code](http://developer.mbed.org/users/mbed_official/code/mbed-src/)
 
-If you are interested in [porting the mbed SDK](/Going_Further/SDK_Porting/) to a new target we provide the sources of all the official mbed libraries, tests and [tools (build and test system)](/Going_Further/Tools/) in [this github repository](https://github.com/mbedmicro/mbe).
+If you are interested in [porting the mbed SDK](/Going_Further/SDK_Porting/) to a new target we provide the sources of all the official mbed libraries, tests and [tools (build and test system)](/Going_Further/Tools/) in [this github repository](https://github.com/mbedmicro/mbed).
 
 ##See also
 Check out the rest of the mbed platform, and [explore](http://mbed.org/explore/) what it can do for you!

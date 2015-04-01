@@ -17,9 +17,9 @@ mbed provides a way of prototyping hardware-based projects and products by givin
 <b>Note</b>: this handbook is for v2. We'll be releasing a new handbook for v3 shortly.
 </div>
 
-This handbook has been migrated from [developer.mbed.org](developer.mbed.org) with only mild changes (mostly rearrangement). It covers:
+This handbook has been migrated from [developer.mbed.org](http://developer.mbed.org) with only mild changes (mostly rearrangement). It covers:
 
-1. [An introduction](Getting_Started/Intro/) to mbed, the API, SDK and HDK, platforms and components.
+1. [An introduction](Introduction/Intro/) to mbed, the API, SDK and HDK, platforms and components.
 
 2. [A getting started guide](/Getting_Started/User_Plat_Reg/) for first-time users including how to use the compiler and create a first program. 
 

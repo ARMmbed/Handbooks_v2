@@ -88,7 +88,7 @@ This is the end of the loop; since the loop's condition is "1", meaning it's alw
 ##Changing the code
 </a>
 
-You can use ``Blinky`` to get used to mbed and the compiler before moving on to [your prototyping](/Getting_Started/Rapid_Prototyping/).
+You can use ``Blinky`` to get used to mbed and the compiler before moving on to [your prototyping](/Introduction/Rapid_Prototyping/).
 
 ###Sequential LEDs
 

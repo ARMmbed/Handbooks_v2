@@ -17,7 +17,7 @@ alt="The mbed compiler" width="480" height="360" border="10" /></a>
 
 **It is online and lightweight, but it is also powerful.**
 
-The compiler uses the professional ARMCC compiler engine, so it produces efficient code that can be used free-of-charge, even in commercial applications. The IDE includes [workspace version control](/Going_Further/Comp_Ver_Cont/), code formatting and [auto-generation](/Going_Further/Docu/) of documentation for published libraries. The mbed tools are focused on prototyping and are designed for fast experimentation, and complement other professional production-level tools; you can even export directly to [other toolchains](/Adv_Dev/Export/) if you choose, as you progress to productise your design.
+The compiler uses the professional ARMCC compiler engine, so it produces efficient code that can be used free-of-charge, even in commercial applications. The IDE includes [workspace version control](/Going_Further/Comp_Ver_Cont/), code formatting and [auto-generation](/Going_Further/Docu/) of documentation for published libraries. The mbed tools are focused on prototyping and are designed for fast experimentation, and complement other professional production-level tools; you can even export directly to [other toolchains](/Going_Further/Export/) if you choose, as you progress to productise your design.
 
 You can [publish projects](/Development/Write_Publish/) directly from your Compiler workspace to the mbed.org website to [share code](http://developer.mbed.org/code/) with others, and pull existing libraries in to your workspace to get a head start.
 
@@ -96,14 +96,14 @@ See also the mbed [Memory Model](/Going_Further/Mem_Mo/).
 
 ###Export to Offline Toolchains
 
-The [mbed C/C++ SDK](/Dev_Fun/SDK/) used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains, so we've also built in the ability to export directly to these toolchains! For example, if you'd like to migrate to a different toolchain as your project develops past prototype, you can choose to export an mbed project by right-clicking on it:
+The [mbed C/C++ SDK](/Introduction/SDK/) used with the mbed Online Compiler is also compatible with a number of other popular ARM microcontroller toolchains, so we've also built in the ability to export directly to these toolchains! For example, if you'd like to migrate to a different toolchain as your project develops past prototype, you can choose to export an mbed project by right-clicking on it:
 
 <span style="text-align:center; display:block;">
 ![](/Getting_Started/Images/Compiler/Compiler8.png)
 </span>
 
  <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See also the [SDK](/Development/SDK/) and [Exporting to offline toolchains](/Going_Further/Export).
+See also the [SDK](/Introduction/SDK/) and [Exporting to offline toolchains](/Going_Further/Export).
 </span>
 
 ##Feature Overview

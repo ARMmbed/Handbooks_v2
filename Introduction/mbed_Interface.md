@@ -41,6 +41,6 @@ There are a few facts and rules about how the interface interacts with the host 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 See also:
 <br /><br />
-[How mbed Works](/Getting_Started/How_mbed_Works/)
+[How mbed Works](/Introduction/How_mbed_Works/)
 </span>
 

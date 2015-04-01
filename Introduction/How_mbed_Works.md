@@ -14,7 +14,7 @@ This is the basic architecture of the mbed Microcontroller board:
 
 When you plug in an mbed Microcontroller in to your PC using USB, it appears like a USB flash disk. This small disk is presented by the mbed Interface, and allows you to save ARM microcontroller binaries you want to run directly on to the mbed, without needing drivers. Note that when you save a binary file to the mbed disk, it is not immediately loaded in to the internal microcontroller FLASH memory. 
 
-When you hit reset, the [mbed interface](/Getting_Started/mbed_Interface/) looks at the disk for the newest .bin file it can find. If there is a new file, it will load it in to the microcontroller's internal FLASH memory using the JTAG interface. If the newest binary is already loaded, it won't load it again. It then starts the microcontroller running. 
+When you hit reset, the [mbed interface](/Introduction/mbed_Interface/) looks at the disk for the newest .bin file it can find. If there is a new file, it will load it in to the microcontroller's internal FLASH memory using the JTAG interface. If the newest binary is already loaded, it won't load it again. It then starts the microcontroller running. 
 
 This means if you hit reset again, it will simply reset the target microcontroller and start it running again, as the latest binary is already loaded. 
 
@@ -37,7 +37,7 @@ The .bin files the mbed Microcontroller accepts are standard raw ARM binaries, a
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 See also:
 <br /><br />
-[The mbed compiler](/Getting_Started/IDE_API/)
+[The mbed compiler](/Introduction/IDE_API/)
 <br /><br />
-[The mbed interface](/Getting_Started/mbed_Interface/)
+[The mbed interface](/Introduction/mbed_Interface/)
 </span>

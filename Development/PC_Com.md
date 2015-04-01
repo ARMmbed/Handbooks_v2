@@ -47,7 +47,7 @@ Some terminal programs (e.g. TeraTerm) list the available serial ports by name. 
 
 ###Details
 
-Communication over the USB Serial port simply uses the standard [Serial](/Adv_Dev/Serial/) Interface, specifying the internal (USBTX, USBRX) pins to connect to the Serial Port routed over USB. 
+Communication over the USB Serial port simply uses the standard [Serial](/Going_Further/Serial/) Interface, specifying the internal (USBTX, USBRX) pins to connect to the Serial Port routed over USB. 
 
 The Serial Interface defaults to a 9600 baud standard serial connection (8 bits, 1 stop bit, no parity), so your host program should be set to the same settings. If you want to communicate at a different standard baud rate, ensure you modify the settings of both the Serial Interface and the Host PC application!
 
@@ -159,8 +159,8 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 **Troubleshooting** 
 <br />
 <br />If you have difficulties with USB serial communication:
-<br />1. Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](/Development/Serial_Conf).
-<br />2. Learn how to use the [Serial](/Development/Serial/) port.
+<br />1. Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](/Going_Further/Serial_Conf).
+<br />2. Learn how to use the [Serial](/Going_Further/Serial/) port.
 <br />3. Read up on using [Terminals](/Going_Further/Terminals/) programs.
 <br /><br />**If you have any problems, or think this tutorial could be improved, please tell us in the [forum](http://developer.mbed.org/forum)** 
 </span>

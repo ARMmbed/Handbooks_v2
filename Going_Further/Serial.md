@@ -209,7 +209,7 @@ The default settings for the mbed microcontroller are described as //9600 8N1//,
 
 ##See Also
 
-  * [Communication with a PC](/Going_Further/PC_Com/)
+  * [Communication with a PC](/Development/PC_Com/)
 
 ##Reference
 

@@ -20,7 +20,7 @@ Each documentation group contains only the documented definitions for that group
 
 * Files - documented functions, variables, enums, defines, also references to struct and unions, but no namespaces and classes
 
-* Groups - defined by the author, grouped documentation elements like files, namespaces, classes, functions, variables, enums, typedefs, defines and other groups for quick reference - e.g. [mbed library Device Peripheral Registers](http://mbed.org/users/mbed_official/code/mbed/docs/e2ed12d17f06/group__Device__Peripheral__Registers.html|).
+* Groups - defined by the author, grouped documentation elements like files, namespaces, classes, functions, variables, enums, typedefs, defines and other groups for quick reference - e.g. [mbed library Device Peripheral Registers](http://developer.mbed.org/users/mbed_official/code/mbed/).
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 **Note:** Classes, methods, functions, etc which exist in the source code but aren't documented won't appear in the documentation.
@@ -41,7 +41,7 @@ Clicking one of the "Definition at line of file source.c" links would open the d
 Another notable feature of the API documentation in the mbed Compiler is the ability to create new files from documentation examples, making it easier to try them. The mbed Compiler would prompt for file name and may suggest main.cpp as name if it doesn't exist in the program root.
 
 <span style="background-color:lightyellow; color:black; display:block; height:100%; padding:10px">
-**Warning:**The documentation groups and individual documents **do not exist in your workspace**. They are meta navigation items that reflect the API documentation as present in the library home page, and as such they cannot be moved, deleted, renamed, etc.
+**Warning:** The documentation groups and individual documents **do not exist in your workspace**. They are meta navigation items that reflect the API documentation as present in the library home page, and as such they cannot be moved, deleted, renamed, etc.
 </span>
 
 ##How to add documentation to your own programs and libraries
@@ -309,4 +309,4 @@ Last but not least, a few notes about Doxygen as being the core of the documenta
 
 There is so much more to be said about API documentation that isn't covered by this guide. How it improves direct and indirect collaborative development of complex programs and libraries. How the documentation preview can improved even further with groups, brief descriptions, etc. No doubt that documenting a code is an added effort on top of the code development. But if that extra effort could enable everyone to efficiently utilize the code and its features, then may be that effort is as important as the code itself. 
 
-For further information about the Doxygen markup and more examples you can visit the [Doxygen manual](http://www.stack.nl/~dimitri/doxygen/manual.html|) on their website.
+For further information about the Doxygen markup and more examples you can visit the [Doxygen manual](http://www.stack.nl/~dimitri/doxygen/manual/index.html) on their website.

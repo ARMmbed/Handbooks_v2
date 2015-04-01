@@ -13,7 +13,7 @@ If you'd like to use the mbed C/C++ SDK with an alternate tool, or migrate to on
 
 * [Exporting to Make](#Make) (GCC ARM Embedded, Code Sourcery).
 
-* [Exporting to IAR Embedded Workbench](http://developer.mbed.org/handbook/Exporting-to-IAR-Embedded-Workbench).
+* [Exporting to IAR Embedded Workbench](#IAR).
 
 This helps give you the flexibility to use the mbed libraries and resources with other toolchains, and also can help as you move your prototype in to production.
 

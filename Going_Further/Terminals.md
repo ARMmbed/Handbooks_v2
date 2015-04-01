@@ -46,7 +46,7 @@ If you do not already have it, install [GNU Screen](http://en.wikipedia.org/wiki
 ###Setup the Connection
   
 * Connect using screen by typing the command ``screen /dev/<devicename>`` in your console window
-* To find the device name of your mbed Serial Port, see the [SerialPC](Going_Further/PC_Com/) *Host Interface* section
+* To find the device name of your mbed Serial Port, see the [SerialPC](/Going_Further/PC_Com/) *Host Interface* section
 * To exit screen, press Ctrl-A, then ":quit"
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">

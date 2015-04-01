@@ -26,7 +26,7 @@ An example of how a microcontroller sub-system might be used to build an evaluat
 
 ##CMSIS-DAP interface 
 
-The CMSIS-DAP Interface is a microcontroller-based single chip solution that provides drag and drop programming, [CMSIS-DAP](/Dev_Fun/CMSIS/) debugger and USB serial interface to a range of Cortex-M based microcontrollers. The small footprint, low number of passive components and rich feature set provide a low cost, low overhead solution that can easily be integrated on a PCB.
+The CMSIS-DAP Interface is a microcontroller-based single chip solution that provides drag and drop programming, [CMSIS-DAP](/CMSIS/CMSIS/) debugger and USB serial interface to a range of Cortex-M based microcontrollers. The small footprint, low number of passive components and rich feature set provide a low cost, low overhead solution that can easily be integrated on a PCB.
 
 The firmware required to turn the low cost microcontroller into a powerful programming, debug and communication interface is included with the HDK and can be used freely, even in commercial products.
 
@@ -47,7 +47,7 @@ For more information see the [CMSIS-DAP section](/CMSIS/CMSIS/).
 
 ##Benefits of the HDK 
 
-There are various benefits to building a custom design onto of the mbed HDK. The ready made schematics are a great short cut, so you can get started on all the things that make your design, without worrying if you've correctly implemented all the "necessary bits" of the design. The mbed HDK incorporates the CMSIS-DAP interface. This provides USB drag and drop programming, [CMSIS-DAP](/CMSIS/CMSIS/) debugging and USB serial communication. The [mbed SDK](/Development/SDK/) supports each of the exact configurations of HDK designs, and libraries that have been written to the APIs in the mbed SDK are highly reusable. Lastly, the mbed community has developed a wealth of libraries, applications and code examples using the SDK/HDK, and this active community offers a lot of opportunities for support and even hiring in required skills.
+There are various benefits to building a custom design onto of the mbed HDK. The ready made schematics are a great short cut, so you can get started on all the things that make your design, without worrying if you've correctly implemented all the "necessary bits" of the design. The mbed HDK incorporates the CMSIS-DAP interface. This provides USB drag and drop programming, [CMSIS-DAP](/CMSIS/CMSIS/) debugging and USB serial communication. The [mbed SDK](/Introduction/SDK/) supports each of the exact configurations of HDK designs, and libraries that have been written to the APIs in the mbed SDK are highly reusable. Lastly, the mbed community has developed a wealth of libraries, applications and code examples using the SDK/HDK, and this active community offers a lot of opportunities for support and even hiring in required skills.
 
 
 ##Sources

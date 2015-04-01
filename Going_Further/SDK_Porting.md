@@ -99,7 +99,7 @@ The Silicon Vendor is providing the files for the startup, system initialization
 * ``system_DEVICE.h``
 * ``DEVICE.h``
 
-The mbed SDK has to provide additional files to dynamically set the vector table  and to configure the [memory model](/3_Adv_Dev/10_Mem_Mo/) for the given C standard library:
+The mbed SDK has to provide additional files to dynamically set the vector table  and to configure the [memory model](/Going_Further/Mem_Mo/) for the given C standard library:
 
 * ``cmsis_nvic.c``
 * ``cmsis_nvic.h``
@@ -173,7 +173,7 @@ This is the full list of the mbed drivers API that could be potentially implemen
 
 The mbed SDK provides a test system to validate the addition of your new target.
 
-You may want to familiarize with the command line interface and structure of the test system reading the [mbed-tools handbook page](/3_Adv_Dev/7_Tools/#test-system).
+You may want to familiarize with the command line interface and structure of the test system reading the [mbed-tools handbook page](/Going_Further/Tools/#test-system).
 
 The description of the tests aimed at validating the mbed SDK are prefixed with the string ``MBED:``.
 
