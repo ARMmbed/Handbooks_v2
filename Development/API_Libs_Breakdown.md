@@ -8,7 +8,7 @@ Note: Not all platforms have the APIs, and some may not have the resources requi
 
 ###Memory Model
 
-* [Memory Model](/Adv_Dev/Mem_Mo/) - The memory model used by the mbed Library.
+* [Memory Model](/Going_Further/Mem_Mo/) - The memory model used by the mbed Library.
 
 ###Analog I/O
 

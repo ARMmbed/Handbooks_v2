@@ -14,11 +14,11 @@ When you use the RTOS, before explicitly initializing any additional thread, you
 * The stack of ``OS Scheduler`` itself (also used by the ISRs).
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Memory/RTOS.png)
+![](/Going_Further/Images/Memory/RTOS.png)
 </span>
 
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-Also see the [the mbed Memory Model](/Adv_Dev/Mem_Mo/).
+Also see the [the mbed Memory Model](/Going_Further/Mem_Mo/).
 </span>
 

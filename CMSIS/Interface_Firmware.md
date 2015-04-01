@@ -16,7 +16,7 @@ The CMSIS-DAP Interface Firmware provides:
 The following image shows how an Onboard Interface running the CMSIS-DAP Interface Firmware might be used to build an evaluation board:
 
 <span style="text-align:center; display:block;">
-![](/Dev_Fun/Images/EvaluationBoard.png)
+![](/Development/Images/EvaluationBoard.png)
 </span>
 
 When the Onboard Interface is plugged to an host PC it enumerates as a composite device with the following interfaces:
@@ -32,7 +32,7 @@ It is connected to the following pins of the target microcontroller:
 * Sleep and Wake (Not currently implemented, reserved for future use)
 
 <span style="text-align:center; display:block;">
-![](/Dev_Fun/Images/CMSISDAPInterface.png)
+![](/Development/Images/CMSISDAPInterface.png)
 </span>
 
 ##Shared Code
@@ -55,7 +55,7 @@ At startup it checks the state of a given pin, default high by pull-up resistor:
 * If the pin is low: it enumerates as a mass storage device, waiting for a new firmware image to be flashed using In Application Programming (IAP)
 
 <span style="text-align:center; display:block;">
-![](/Dev_Fun/Images/CMSIS_Bootloader.png)
+![](/Development/Images/CMSIS_Bootloader.png)
 </span>
 
 ###Porting to a New Chip

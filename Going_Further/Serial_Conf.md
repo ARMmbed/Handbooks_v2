@@ -14,8 +14,8 @@ It will take some time (especially on Vista), and pop up a few 'unsigned driver'
 
 ###Where Next
 
-* [Serial PC](/Adv_Dev/PC_Com/) - Communication with a PC
-* [Terminals](/Adv_Dev/Terminals/) -  Guide to using terminal applications
+* [Serial PC](/Development/PC_Com/) - Communication with a PC
+* [Terminals](/Going_Further/Terminals/) -  Guide to using terminal applications
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 ***Troubleshooting***

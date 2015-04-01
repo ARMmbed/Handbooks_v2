@@ -33,7 +33,7 @@ Your mbed Microcontroller can appear on your computer as a serial port. On Mac a
 
 It is common to use a //terminal application// on the host PC to communicate with the mbed Microcontroller. This allows the mbed Microcontroller to print to your PC screen, and for you to send characters back.
 
-* [Terminals](/Adv_Dev/Terminals/) - Using Terminal applications to communicate between the Host PC and the mbed Micrcontroller.
+* [Terminals](/Going_Further/Terminals/) - Using Terminal applications to communicate between the Host PC and the mbed Micrcontroller.
 
 Some terminal programs (e.g. TeraTerm) list the available serial ports by name. However, if you do need to know the identity of the serial port so that you can attach a terminal or an application to it:
 
@@ -159,8 +159,8 @@ The Serial Interface defaults to a 9600 baud standard serial connection (8 bits,
 **Troubleshooting** 
 <br />
 <br />If you have difficulties with USB serial communication:
-<br />1. Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](/Adv_Dev/Serial_Conf).
-<br />2. Learn how to use the [Serial](/Adv_Dev/Serial/) port.
-<br />3. Read up on using [Terminals](/Adv_Dev/Terminals/) programs.
+<br />1. Make sure you have installed the driver if you are working on Windows - [Windows Serial Configuration](/Development/Serial_Conf).
+<br />2. Learn how to use the [Serial](/Development/Serial/) port.
+<br />3. Read up on using [Terminals](/Going_Further/Terminals/) programs.
 <br /><br />**If you have any problems, or think this tutorial could be improved, please tell us in the [forum](http://developer.mbed.org/forum)** 
 </span>

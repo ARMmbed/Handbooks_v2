@@ -181,7 +181,7 @@ Attach a function to call whenever a serial interrupt is generated.
 The Serial Interface can be used on supported pins and USBTX/USBRX
 
 <span style="text-align:center; display:block;">
-![The pinout page](/Adv_Dev/Images/Serial_Pinout.png)
+![The pinout page](/Going_Further/Images/Serial_Pinout.png)
 </span>
 <span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">
 [See the Pinout page for more details](http://developer.mbed.org/handbook/Pinouts).
@@ -190,9 +190,9 @@ The Serial Interface can be used on supported pins and USBTX/USBRX
 Note that USBTX/USBRX are not DIP pins; they represent the pins that route to the interface USB Serial port so you can communicate with a host PC.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-If you want to send data to a host PC, take a look at [SerialPC](/Adv_Dev/PC_Com/) - Communicating between mbed and a host PC.
+If you want to send data to a host PC, take a look at [SerialPC](/Development/PC_Com/) - Communicating between mbed and a host PC.
 <br /><br />
-Note that on a windows machine, you will need to install a USB Serial driver, see: [Windows serial configuration](/Adv_Dev/Serial_Conf/).
+Note that on a windows machine, you will need to install a USB Serial driver, see: [Windows serial configuration](/Going_Further/Serial_Conf/).
 </span>
 
 Serial channels have a number of configurable parameters:
@@ -209,7 +209,7 @@ The default settings for the mbed microcontroller are described as //9600 8N1//,
 
 ##See Also
 
-  * [Communication with a PC](/Adv_Dev/PC_Com/)
+  * [Communication with a PC](/Going_Further/PC_Com/)
 
 ##Reference
 

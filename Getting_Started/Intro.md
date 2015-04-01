@@ -24,6 +24,6 @@ We'll look at the extended process, which includes creating a user and registeri
 
 4. [Your first program](/Getting_Started/First_Pro/).
 
-5. Where to [get help](/Community/Questions/).
+5. Where to [get help](/Getting_Started/Questions/).
 
 The program you'll create in this section is called `Blinky`. If you've already set up your IDE and have a board, you can skip ahead to the [Blinky example](/Getting_Started/First_Pro/).

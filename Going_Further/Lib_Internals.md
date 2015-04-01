@@ -12,7 +12,7 @@ This document assumes that you are familiar with the C Programming Language, but
 The mbed library provides abstractions for the microcontroller (MCU) hardware (in particular drivers for the MCU peripherals) and it is divided in the following software layers and APIs:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Lib_Intern/Layers.png)
+![](/Going_Further/Images/Lib_Intern/Layers.png)
 </span>
 
 To port the mbed library to a new microcontroller you will have to provide the two software layers marked as "MCU dependent" in the above diagram.
@@ -44,7 +44,7 @@ Two target dependent directories:
 * ``mbed/targets/cmsis``: CMSIS-CORE sources
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Lib_Intern/Direct.png)
+![](/Going_Further/Images/Lib_Intern/Direct.png)
 </span>
 
 ##MCU Registers
@@ -60,7 +60,7 @@ Silicon Vendors, like NXP, provide detailed user manuals describing the register
 This is a page from the [|LPC17xx user manual](http://www.nxp.com/documents/user_manual/UM10360.pdf describing the registers of the GPIO peripheral:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Lib_Intern/GPIO_R.png)
+![](/Going_Further/Images/Lib_Intern/GPIO_R.png)
 </span>
 
 ###Blinky example poking registers
@@ -68,11 +68,11 @@ This is a page from the [|LPC17xx user manual](http://www.nxp.com/documents/user
 Let's see how to blink an LED on our LPC1768 mbed simply poking these registers: 
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Lib_Intern/Blinky1.png)
+![](/Going_Further/Images/Lib_Intern/Blinky1.png)
 </span>
 
 <span style="text-align:center; display:block; padding:20px;">
-![](/Adv_Dev/Images/Lib_Intern/Blinky2.png)
+![](/Going_Further/Images/Lib_Intern/Blinky2.png)
 </span>
 
 ```c
@@ -101,7 +101,7 @@ Let's see how to blink an LED on our LPC1768 mbed simply poking these registers:
 
 ##CMSIS-CORE
 
-The [|CMSIS-CORE](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php) headers provide you a suitable data structure to access these low level registers:
+The [CMSIS-CORE](http://www.arm.com/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php) headers provide you a suitable data structure to access these low level registers:
 
 ```c
 
@@ -185,9 +185,9 @@ Let's see how to blink an LED on our LPC1768 mbed using the CMSIS-CORE API:
 
 The mbed library provides certain additions to the CMSIS-CORE layer:
 
-* startup file for each of the [Supported Toolchains](/Adv_Dev/Export/)
+* startup file for each of the [Supported Toolchains](/Going_Further/Export/)
 
-* linker file and support functions to define the [Memory Map](/Adv_Dev/Mem_Mo/)
+* linker file and support functions to define the [Memory Map](/Going_Further/Mem_Mo/)
 
 * functions to set and get Interrupt Service Routines (ISR) addresses from the [Nested Vectored Interrupt Controller (NVIC)](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0552a/BABEDCBC.html) and to  program [Vector Table Offset Register (VTOR)](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0552a/Ciheijba.html).
 

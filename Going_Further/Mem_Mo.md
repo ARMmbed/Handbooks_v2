@@ -85,7 +85,7 @@ The executable code, constants and other read-only data get put in a section cal
 On reset, the RAM is an undefined state and those initialised variables have to be setup for your program to work correctly. This setup is actually part of your program binary, as the compiler automatically inserts some housework code before main() as part of setting up the C environment which copies from FLASH to RAM what these variables should be initialised to; this becomes the runtime RW section. One of the other things it does is to zero fill the next section of RAM, which is where the ZI section lives.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Memory/Memory_Sections.png)
+![](/Going_Further/Images/Memory/Memory_Sections.png)
 </span>
 
 ###Heap and Stack
@@ -95,7 +95,7 @@ The last two sorts of information are the local variables which will exist on th
 The sizes of these two regions vary during program execution, and only have fixed starting points. We use the single memory space shared stack/heap model which allows flexibility in the size of each, limited only by our available RAM. What this means is that the heap starts at the first address after the end of ZI, growing up into higher memory addresses, and the stack starts at the last memory address of RAM, and grows downwards into lower memory addresses:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Memory/Heap_Stack.png)
+![](/Going_Further/Images/Memory/Heap_Stack.png)
 </span>
 
 ###Collisions
@@ -107,5 +107,5 @@ To try and help you prevent detect when this would happen, the routines that all
 If your stack and your heap do collide, despite your best efforts, then the results will be unpredictable. You may get data corruption, or you may get a hard fault. You can write a hard fault handler and/or implement a watchdog to recover from some of these faults, but you basically have to restart the system!
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-Also see the [RTOS Memory Model](/Adv_Dev/RTOS_Mem/).
+Also see the [RTOS Memory Model](/Going_Further/RTOS_Mem/).
 </span>

@@ -21,7 +21,7 @@ As mentioned earlier, CMSIS-DAP has to be implemented on an Interface Chip. This
 On the mbed hardware, the CMSIS-DAP firmware has been implemented on the [mbed interface](/Getting_Started/mbed_Interface/) as part of the mbed HDK. In addition to the Mass Storage and the Virtual Serial Port interfaces, an HID endpoint is used to establish a CMSIS-DAP communication link with a debugger.
 
 <span style="display:block; text-align:center; padding:20px;">
-![Communication with a debugger](/Dev_Fun/Images/CMSIS.png "CMSIS-DAP communication with a debugger across a USB connection")
+![Communication with a debugger](/Development/Images/CMSIS.png "CMSIS-DAP communication with a debugger across a USB connection")
 <span>
 <span style="background-color:lightblue; color:gray; display:block; height:100%; padding:10px;">*CMSIS-DAP communication with a debugger across a USB connection*</span>
 ##Overview of the CMSIS-DAP standard
@@ -51,5 +51,5 @@ Let's say that a debugger needs to read the value at a specific location in memo
 CMSIS-DAP provides a standardised interface for debuggers. It will probably become the de facto standard that debuggers and debug units will implement; this is why mbed chose to take advantage of this new standard to provide debug capabilities. For instance, Keil uVision, which combines an IDE, debugger and simulation environment already supports CMSIS-DAP. 
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-**Tip:** If you have a project you want to debug, you can try the new [mbed interface with CMSIS-DAP](/Adv_Dev/CMSIS-DAP-MDK/).
+**Tip:** If you have a project you want to debug, you can try the new [mbed interface with CMSIS-DAP](/Going_Further/CMSIS-DAP-MDK/).
 </span>

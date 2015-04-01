@@ -226,7 +226,7 @@ So, now you have some great code, how do you let others use it?! Well, the mbed 
 From the previous sections, we've now got a program that looks something like:
 
 <span style="text-align:center; display:block;">
-![Publish](/Adv_Dev/Images/Publish/Publish1.png)
+![Publish](/Going_Further/Images/Publish/Publish1.png)
 </span>
 
 Using the same convention that a class called Flasher should have a header file Flasher.h, we suggest you make your library have the same name i.e. "Flasher". 
@@ -234,7 +234,7 @@ Using the same convention that a class called Flasher should have a header file 
 To create a library, right-click on your program, select "New Library..." and enter "Flasher"; it'll add a folder to your program, but you'll notice a little cog on it indicating it is actually a library in edit mode. You can now drag your files that will be part of the library in to it, and you'll end up with:
 
 <span style="text-align:center; display:block;">
-![Publish](/Adv_Dev/Images/Publish/Publish2.png)
+![Publish](/Going_Further/Images/Publish/Publish2.png)
 </span>
 
 Your program should still build fine, but now there is a little bit more structure.
@@ -242,13 +242,13 @@ Your program should still build fine, but now there is a little bit more structu
 The next step is to publish it. To do this, just right-click the library and choose "Publish Library...". You'll be asked to enter a description, some tags and any message specific to that particular version (e.g. first revision, bug fixes). Once done, hit OK and you'll get a message:
 
 <span style="text-align:center; display:block;">
-![Publish](/Adv_Dev/Images/Publish/Publish3.png)
+![Publish](/Going_Further/Images/Publish/Publish3.png)
 </span>
 
 Your library is now live! You can go to the URL and see it on the mbed.org website, and tell all your friends! You'll also see your project has been updated:
 
 <span style="text-align:center; display:block;">
-![Publish](/Adv_Dev/Images/Publish/Publish4.png)
+![Publish](/Going_Further/Images/Publish/Publish4.png)
 </span>
 
 It now just contains a reference to the published library, just like anyone else will get when they choose to import your library.
@@ -258,7 +258,7 @@ It now just contains a reference to the published library, just like anyone else
 So, now lets say you wanted to edit the library some more. Perhaps you wanted to add some Doxygen documentation so users of your library get nice documentation of your library so they know how to use it. We'll that's nice and easy. Just right-click the library and choose "Edit Library...". You'll be back to a editable library folder:
 
 <span style="text-align:center; display:block;">
-![Publish](/Adv_Dev/Images/Publish/Publish5.png)
+![Publish](/Going_Further/Images/Publish/Publish5.png)
 </span>
 
 Make your changes, then re-publish it as before, and your updates are pushed live! Go to the URL and you'll be able to look through the history. Anyone using your library will be able to see a newer version exists, and choose to update in a single click. Magic :)
@@ -267,4 +267,4 @@ Note that you can also edit a library that someone else wrote. Just import it, c
 
 ##Documenting your library
 
-The mbed site will also automatically generate API documentation for your library if you mark it up. See the [API Documentation section](/Adv_Dev/Docu/).
+The mbed site will also automatically generate API documentation for your library if you mark it up. See the [API Documentation section](/Going_Further/Docu/).

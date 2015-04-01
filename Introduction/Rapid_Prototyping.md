@@ -27,7 +27,7 @@ After you’ve got your libraries, it’s time to get coding. The compiler inclu
 You can use the built-in version control to keep track of working version of your code, and even publish your program to the community in a couple of clicks; this is excellent if you want help, as it makes it very easy for others to reproduce your problems quickly.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See our explanation on how to [import](/Getting_Started/Using_IDE/) or [publish](Adv_Dev/Write_Publish/).
+See our explanation on how to [import](/Getting_Started/Using_IDE/) or [publish](Development/Write_Publish/).
 </span>
 
 ##Build on existing middleware
@@ -53,7 +53,7 @@ If you fix a bug in a library you can contribute the fix back. Coding new librar
 We use Mercurial on the backend to support distributed version control; forking, pulling, merging and pushing all happen neatly from within the mbed Compiler. You can also grant developers access to your own repositories, so you can create a virtual team.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See our pages on working [with the mbed community](Community/Intro/) or [writing a library](Adv_Dev/Write_Publish/).
+See our pages on working [with the mbed community](Community/Intro/) or [writing a library](Development/Write_Publish/).
 </span>
 
 ##Going to production
@@ -78,7 +78,7 @@ Once you have your final prototype you’ll likely want to build your own custom
 Going to production can be daunting if you haven’t done it before. The prototype to production guide in the cookbook, board schematic / layout files in the HDK and the expertise in the mbed community can help with understanding the process of taking your prototype through to a manufacturable product.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See our page on the [mbed HDK](/Dev_Fun/HDK/).
+See our page on the [mbed HDK](/Introduction/HDK/).
 </span>
 
 ###Exporting to other professional tools
@@ -90,7 +90,7 @@ The mbed Compiler is capable of exporting your projects to other professional to
 Combined with the CMSIS-DAP support built-in to the USB Onboard Interface, it is easy to move your project to full professional debugger tools without changing your hardware.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See our page on [exporting to other toolchains](/Adv_Dev/Export/).
+See our page on [exporting to other toolchains](/Going_Further/Export/).
 </span>
 
 ###Support and Contracting

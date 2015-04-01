@@ -28,7 +28,7 @@ PwmOut to pin p20. Because PwmOut is not available on pin p20, a run time error 
 </span>
 
 <span style="text-align:center; display:block;">
-![Warning lights](/Adv_Dev/Images/Debug/FRDM_KL25Z.gif)![](/Adv_Dev/Images/Debug/LPC11U24.gif)![](/Adv_Dev/Images/Debug/LPC1768.gif)
+![Warning lights](/Going_Further/Images/Debug/FRDM_KL25Z.gif)![](/Adv_Dev/Images/Debug/LPC11U24.gif)![](/Going_Further/Images/Debug/LPC1768.gif)
 </span>
 
 When the program below starts a run time error is caused, leading to the siren lights. 
@@ -73,7 +73,7 @@ The main things to use are:
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
 **Debug to a serial console:** The debug functions mentioned above all cause debug information to be printed over the USB serial port. *This is generally the way to debug running programs on your mbed microcontroller.*
 
-For more information on using the USB Serial port, see the [SerialPC](/Adv_Dev/PC_Com/) page.
+For more information on using the USB Serial port, see the [SerialPC](/Development/PC_Com/) page.
 
 ``Example showing serial terminal debug messages``
 

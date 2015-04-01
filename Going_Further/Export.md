@@ -24,10 +24,10 @@ Whilst we support exporting your project and the libraries to an alternate toolc
 </span>
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Export1.png)
+![](/Going_Further/Images/Exporting/Export1.png)
 </span>
 <span style="text-align:center; display:block; padding:20px;">
-![](/Adv_Dev/Images/Exporting/Export2.png)
+![](/Going_Further/Images/Exporting/Export2.png)
 </span>
 
 _______
@@ -46,10 +46,10 @@ When you choose export, a zip file containing all the files you need for uVision
 After building the project, the binary file (".bin"), ready to be flashed on the mbed, will be generated in the "build" directory.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/uVision1.png)
+![](/Going_Further/Images/Exporting/uVision1.png)
 </span>
 <span style="text-align:center; display:block; padding:20px;">
-![](/Adv_Dev/Images/Exporting/uVision2.png)
+![](/Going_Further/Images/Exporting/uVision2.png)
 </span>
 
 ________
@@ -61,7 +61,7 @@ ________
 [Eclipse](https://eclipse.org/) is a widely-used, open source IDE that supports multiple languages. It is used by many offline toolchains, including [LPCXpresso](http://www.lpcware.com/lpcxpresso) and [Kinetis Design Studio](http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=KDS_IDE). The setup process for each IDE will vary depending on the distribution; however, the user interface between these distributions will not change much, so these instructions should be easy to apply to all Eclipse-based IDEs.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Eclipse1.png)
+![](/Going_Further/Images/Exporting/Eclipse1.png)
 </span>
 
 To export your mbed program for use in an Eclipse-based IDE, right-click the program in your program workspace. From the dialog, you can select your desired toolchain for the "Export Toolchain" field. Also, be sure to select the correct target platform under the "Export Target" field.
@@ -74,25 +74,25 @@ following screenshots exactly, but it should be very similar.
 </span>
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Eclipse2.png)
+![](/Going_Further/Images/Exporting/Eclipse2.png)
 </span>
 
 Click File > Import…
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Eclipse3.png)
+![](/Going_Further/Images/Exporting/Eclipse3.png)
 </span>
 
 In the dialog that pops up, under “General”, select “Existing Projects into Workspace” and click Next.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Eclipse4.png)
+![](/Going_Further/Images/Exporting/Eclipse4.png)
 </span>
 
 Next to the “Select root directory” field, click Browse. In the dialog that pops  up,  navigate to where you unzipped the downloaded program and select the folder. Hit “OK”.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Eclipse5.png)
+![](/Going_Further/Images/Exporting/Eclipse5.png)
 </span>
 
 In the “Projects” area, you should see the project name listed. Ensure the checkbox next to it is checked. Hit “Finish”.
@@ -120,7 +120,7 @@ Make itself does not compile source code. It relies on a compiler like [GCC ARM 
 </span>
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/Make1.png)
+![](/Going_Further/Images/Exporting/Make1.png)
 </span>
 
 To export your mbed program for use in Make, right-click the program in your program workspace. From the dialog, you can select your desired compiler under the "Export Toolchain" field. Also, be sure to select the correct target platform under the "Export Target" field.
@@ -160,7 +160,7 @@ The [IAR Embedded Workbench](http://www.iar.com/en/Products/IAR-Embedded-Workben
 To export your mbed program for use in the IAR Embedded Workbench, right-click the program in your program workspace. From the dialog, you can select the "Export To" as "IAR Systems", and the target microcontroller you wish to export for (currently, only the LPC1768 is supported):
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/IAR1.png)
+![](/Going_Further/Images/Exporting/IAR1.png)
 </span>
 
 When you choose export, a zip file containing all the files you need for the IAR Embedded Workbench will be generated. Unzip it and open the IAR Embedded Workbench workspace file ``.eww``.
@@ -168,5 +168,5 @@ When you choose export, a zip file containing all the files you need for the IAR
 After building the project, the binary file ``.bin``, ready to be flashed on the mbed, will be generated in the "Debug\Exe" directory:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/Exporting/IAR2.png)
+![](/Going_Further/Images/Exporting/IAR2.png)
 </span>

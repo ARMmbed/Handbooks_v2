@@ -125,7 +125,7 @@ Functions
 
 ##Doxygen documentation
 
-All functions/methods should contain a documentation using doxygen javadoc in a header file. More information regarding writing API Documentation, follow the [link](/Adv_Dev/Docu/).
+All functions/methods should contain a documentation using doxygen javadoc in a header file. More information regarding writing API Documentation, follow the [link](/Going_Further/Docu/).
 
 ```c
 	

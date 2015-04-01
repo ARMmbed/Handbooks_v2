@@ -17,9 +17,9 @@ alt="The mbed compiler" width="480" height="360" border="10" /></a>
 
 **It is online and lightweight, but it is also powerful.**
 
-The compiler uses the professional ARMCC compiler engine, so it produces efficient code that can be used free-of-charge, even in commercial applications. The IDE includes [workspace version control](/Adv_Dev/Comp_Ver_Cont/), code formatting and [auto-generation](/Adv_Dev/Docu/) of documentation for published libraries. The mbed tools are focused on prototyping and are designed for fast experimentation, and complement other professional production-level tools; you can even export directly to [other toolchains](/Adv_Dev/Export/) if you choose, as you progress to productise your design.
+The compiler uses the professional ARMCC compiler engine, so it produces efficient code that can be used free-of-charge, even in commercial applications. The IDE includes [workspace version control](/Going_Further/Comp_Ver_Cont/), code formatting and [auto-generation](/Going_Further/Docu/) of documentation for published libraries. The mbed tools are focused on prototyping and are designed for fast experimentation, and complement other professional production-level tools; you can even export directly to [other toolchains](/Adv_Dev/Export/) if you choose, as you progress to productise your design.
 
-You can [publish projects](/Adv_Dev/Write_Publish/) directly from your Compiler workspace to the mbed.org website to [share code](http://developer.mbed.org/code/) with others, and pull existing libraries in to your workspace to get a head start.
+You can [publish projects](/Development/Write_Publish/) directly from your Compiler workspace to the mbed.org website to [share code](http://developer.mbed.org/code/) with others, and pull existing libraries in to your workspace to get a head start.
 
 ##Feature Highlights 
 
@@ -63,7 +63,7 @@ The main things you can do include:
 * Branch and merge
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See also [Version Control](/Adv_Dev/Comp_Ver_Cont/).
+See also [Version Control](/Going_Further/Comp_Ver_Cont/).
 </span>
 
 ###Importing Libraries or Example Programs
@@ -91,7 +91,7 @@ When you compile a program, you'll get a display of the memory usage. This shows
 Note, this doesn't include the runtime allocated variables (i.e. the heap and stack), which live in any remaining RAM.
  
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See also the mbed [Memory Model](/Adv_Dev/Mem_Mo/).
+See also the mbed [Memory Model](/Going_Further/Mem_Mo/).
 </span>
 
 ###Export to Offline Toolchains
@@ -103,7 +103,7 @@ The [mbed C/C++ SDK](/Dev_Fun/SDK/) used with the mbed Online Compiler is also c
 </span>
 
  <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-See also the [SDK](/Dev_Fun/SDK/) and [Exporting to offline toolchains](/Adv_Dev/Export).
+See also the [SDK](/Development/SDK/) and [Exporting to offline toolchains](/Going_Further/Export).
 </span>
 
 ##Feature Overview
@@ -128,7 +128,7 @@ Compile Engine
 
 Built-in Version Control and Collaboration tools
  
-* [Built-in version control](/Adv_Dev/Comp_Ver_Cont/) (DVCS).
+* [Built-in version control](/Going_Further/Comp_Ver_Cont/) (DVCS).
  
 * Publish, fork, push and pull code in [collaboration-enabled environment](/Community/Collab/).
  
@@ -142,7 +142,7 @@ Importing and Exporting
  
 * Import from and export to local source files and zip archives.
  
-* [Export directly](/Adv_Dev/Export) to other popular ARM toolchains.
+* [Export directly](/Going_Further/Export) to other popular ARM toolchains.
 
 Accessibility
  

@@ -23,10 +23,10 @@ This handbook has been migrated from [developer.mbed.org](developer.mbed.org) wi
 
 2. [A getting started guide](/Getting_Started/User_Plat_Reg/) for first-time users including how to use the compiler and create a first program. 
 
-3. [A review of development on mbed](/Dev_Fun/Intro/) covering basics such as the API and debugging.
+3. [A review of development on mbed](/Development/Intro/) covering basics such as the API and debugging.
 
-4. [A more in depth look](/Adv_Dev/Coding_Style/) at development.
+4. [A more in depth look](/Going_Further/Coding_Style/) at development.
 
-5. [A review of the CMSIS-DAP](/Dev_Fun/CMSIS/) debug interface on mbed. 
+5. [A review of the CMSIS-DAP](/CMSIS/CMSIS/) debug interface on mbed. 
 
 6. [And introduction to the mbed community](/Community/Intro/) and how you can contribute to it.

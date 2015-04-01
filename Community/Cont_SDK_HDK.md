@@ -3,11 +3,11 @@
 You can also contribute to the mbed SDK and HDK.
 
 * Open Source mbed SDK:
-	* [mbed library internals](/Adv_Dev/Lib_Internals/)
-	* [mbed tools](/Adv_Dev/Tools/)
-	* [mbed SDK porting](/Adv_Dev/SDK_Porting/)
+	* [mbed library internals](/Going_Further/Lib_Internals/)
+	* [mbed tools](/Going_Further/Tools/)
+	* [mbed SDK porting](/Going_Further/SDK_Porting/)
 
 * Open Source mbed HDK:
-	* [Debug using CMSIS-DAP](/Dev_Fun/CMSIS/)
-	* [Using the HDK](/Dev_Fun/HDK/)
-	* [Porting to a new target](/Dev_Fun/Interface_Firmware/)
+	* [Debug using CMSIS-DAP](/CMSIS/CMSIS/)
+	* [Using the HDK](/Development/HDK/)
+	* [Porting to a new target](/CMSIS/Interface_Firmware/)

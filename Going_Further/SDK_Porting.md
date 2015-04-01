@@ -9,17 +9,17 @@ The porting of the mbed SDK to a new target is divided in four steps:
 
 The source code of the mbed SDK (tools + libraries) is available in [this repository](https://github.com/mbedmicro/mbed).
 
-Before starting the mbed SDK porting, you might want to familiarize with the [mbed library internals](Adv_Dev/Lib_Internals/) first.
+Before starting the mbed SDK porting, you might want to familiarize with the [mbed library internals](Going_Further/Lib_Internals/) first.
 
 For discussing the development of the mbed SDK itself (Addition/support of microcontrollers/toolchains, build and test system, Hardware Abstraction Layer API, etc) please join our [mbed-devel mailing list](https://groups.google.com/forum/?fromgroups#!forum/mbed-devel).
 
 ##Coding style
 
-mbed SDK coding style is described in detail in mbed SDK team's wiki page, please visit for further details [mbed SDK coding style](/Adv_Dev/Coding_Style/).
+mbed SDK coding style is described in detail in mbed SDK team's wiki page, please visit for further details [mbed SDK coding style](/Going_Further/Coding_Style/).
 
 ##Build System
 
-You can get an introduction about the mbed SDK command line tools, from a user perspective, reading the [mbed-tools handbook page](/Adv_Dev/Tools/).
+You can get an introduction about the mbed SDK command line tools, from a user perspective, reading the [mbed-tools handbook page](/Going_Further/Tools/).
 
 Adding a new target to the build system is as easy as adding a new ``Target`` class to this python module: [workspace_tools/targets.py](https://github.com/mbedmicro/mbed/blob/master/workspace_tools/targets.py).
 
@@ -72,7 +72,7 @@ The target and toolchain specified for a given build define a set of ``TARGET_``
 When the build system scans for resources to be compiled, it filters out all the ``TARGET_`` and ``TOOLCHAIN_`` directories that are not in the set of "labels" defined by the current build.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-**IDE:**  You can develop the code for adding support for a new target in you favourite IDE. As a starting point, you can export the following program to one of the supported [offline toolchains](Adv_Dev/Export/): [Hello World using the mbed library sources](http://developer.mbed.org/users/mbed_official/code/mbed-src-program/).
+**IDE:**  You can develop the code for adding support for a new target in you favourite IDE. As a starting point, you can export the following program to one of the supported [offline toolchains](Going_Further/Export/): [Hello World using the mbed library sources](http://developer.mbed.org/users/mbed_official/code/mbed-src-program/).
 </span>
 
 ##CMSIS Module

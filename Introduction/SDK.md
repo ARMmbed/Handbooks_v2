@@ -36,7 +36,7 @@ Startup code, check. C Library integration, check. Peripheral libraries, check. 
 The abstraction provided by the mbed SDK APIs enables libraries and example code to be reused by any microcontroller target that the mbed SDK targets.
 
 <span style="display:block; float:right; padding-top:0px; padding-right=0px; padding-left=20px; padding-bottom=20px;">
-![logos](/Dev_Fun/Images/sdk_logos.png)
+![logos](/Development/Images/sdk_logos.png)
 </span>
 
 ##Support for Multiple Toolchains
@@ -48,25 +48,25 @@ However, the mbed C/C++ SDK used with the mbed Online Compiler is also compatibl
 If you'd like to use the [mbed platforms](developer.mbed.org/platforms/) or mbed C/C++ SDK with an alternate tool, or simply migrate to one as your project develops past prototype, you can choose to export an mbed project to the toolchain of your choice by right-clicking on them in the IDE.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%; padding:10px">
-You can read more about this on the [Exporting to offline toolchains](/Adv_Dev/Export/) handbook page.
+You can read more about this on the [Exporting to offline toolchains](/Going_Further/Export/) handbook page.
 </span>
 
 ##Open Source
 
 <span style="display:block; float:right; padding:20px;">
-![open source](/Dev_Fun/Images/sdk_open_source.png)
+![open source](/Development/Images/sdk_open_source.png)
 </span>
 
 The mbed SDK is licensed under the permissive Apache 2.0 open source licence.
 
 We wanted to make sure the license we chose made it possible to use the SDK in both commercial and personal projects with confidence, including no obligations to open source your own code if you didn't want to. Whilst we encourage sharing of code and experience to be reusable by others, we certainly don't want to enforce it, and a permissive license provides that freedom for our users to keep the options open.
 
-If you are interested in delving in the depth of the mbed SDK implementation you can take a look at the documentation of the [mbed library internals](/Adv_Dev/Lib_Internals/).
+If you are interested in delving in the depth of the mbed SDK implementation you can take a look at the documentation of the [mbed library internals](/Going_Further/Lib_Internals/).
 
 and you can use the mbed library sources, instead of one of its builds:
 [Import the code](http://developer.mbed.org/users/mbed_official/code/mbed-src/)
 
-If you are interested in [porting the mbed SDK](/Adv_Dev/SDK_Porting/) to a new target we provide the sources of all the official mbed libraries, tests and [tools (build and test system)](/Adv_Dev/Tools/) in [this github repository](https://github.com/mbedmicro/mbe).
+If you are interested in [porting the mbed SDK](/Going_Further/SDK_Porting/) to a new target we provide the sources of all the official mbed libraries, tests and [tools (build and test system)](/Going_Further/Tools/) in [this github repository](https://github.com/mbedmicro/mbe).
 
 ##See also
 Check out the rest of the mbed platform, and [explore](http://mbed.org/explore/) what it can do for you!

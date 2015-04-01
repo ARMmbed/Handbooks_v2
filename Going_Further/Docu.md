@@ -9,7 +9,7 @@ In mbed, API documentation for programs and libraries is fully supported both wi
 ##Browsing API documentation from within the mbed Compiler
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/API_Docs/APIDOCS1.png)
+![](/Going_Further/Images/API_Docs/APIDOCS1.png)
 </span>
 
 Each documentation group contains only the documented definitions for that group as follows:
@@ -29,13 +29,13 @@ Each documentation group contains only the documented definitions for that group
 The documentation preview contains references presented as standard links (default in blue) that point to sub-sections of the document or point to other documents, and which once activated would open inside the mbed Compiler.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/API_Docs/APIDOCS2.png)
+![](/Going_Further/Images/API_Docs/APIDOCS2.png)
 </span>
 
 Clicking one of the "Definition at line of file source.c" links would open the definition source file in the Editor (see below). The definition source file can also be opened with "Go to definition" option in the context menu from the navigation tree.
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/API_Docs/APIDOCS3.png)
+![](/Going_Further/Images/API_Docs/APIDOCS3.png)
 </span>
 
 Another notable feature of the API documentation in the mbed Compiler is the ability to create new files from documentation examples, making it easier to try them. The mbed Compiler would prompt for file name and may suggest main.cpp as name if it doesn't exist in the program root.
@@ -145,13 +145,13 @@ Here is an example of advanced documentation:
 To generate documentation for the example above, you have to click the **Update Docs** menu item in the **Compile** dropdown:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/API_Docs/APIDOCS5.png)
+![](/Going_Further/Images/API_Docs/APIDOCS5.png)
 </span>
 
 Once generated the navigation tree would refresh and the formatted documentation would look like this:
 
 <span style="text-align:center; display:block;">
-![](/Adv_Dev/Images/API_Docs/APIDOCS4.png)
+![](/Going_Further/Images/API_Docs/APIDOCS4.png)
 </span>
 
 Congratulations! You now know how to document a library.

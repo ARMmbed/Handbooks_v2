@@ -11,7 +11,7 @@ Take a look at some of these interfaces to get a feel of how it works: [digital 
 If needed, you can bypass the APIs and talk directly to the microcontroller hardware using the low-level [Cortex Microcontroller Software Interface Standard (CMSIS) APIs](/Dev_Fun/CMSIS/). Ideal when just one aspect needs specific low-level control.
 
 <span style="background-color:lightgray; color:purple; display:block; height:100%;padding:10px;">
-For all the mbed C/C++ SDK APIs, see the [API breakdown](/Dev_Fun/API_Libs_Breakdown/)<br />
-To read more about mbed SDK coding style, see the [mbed SDK coding style guide](/Adv_Dev/Coding_Style/)
+For all the mbed C/C++ SDK APIs, see the [API breakdown](/Development/API_Libs_Breakdown/)<br />
+To read more about mbed SDK coding style, see the [mbed SDK coding style guide](/Going_Further/Coding_Style/)
 </span>
 
