@@ -1,4 +1,5 @@
 site_name: mbed v2 Handbook
+docs_dir: docs
 
 pages:
 - ['index.md','Introduction to Version 2']
