@@ -42,4 +42,3 @@ pages:
 - ['Community/Collab.md','The mbed Community','Collaboration']
 - ['Community/Edu.md','The mbed Community','Education']
 
-extra_css: ['FullCSS.css']
