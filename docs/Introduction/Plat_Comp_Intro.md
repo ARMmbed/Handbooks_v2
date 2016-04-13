@@ -1,7 +1,3 @@
-<head>
-<link href="https://github.com/ARMmbed/Handbooks_v2/blob/master/FullCSS.css" type="text/css" rel="stylesheet"></link>
-</head>
-
 ##Overview
 
 mbed provides a way of prototyping hardware-based projects and products by giving you the hardware (ARM-processors on a board, and external components) and the ability to write software to control it (using the mbed API and IDE). 
