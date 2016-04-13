@@ -1,9 +1,4 @@
-<head>
-<link href="https://github.com/ARMmbed/Handbooks_v2/blob/master/FullCSS.css" type="text/css" rel="stylesheet"></link>
-</head>
-
-
-#Welcome to the mbed v2 handbook
+# Welcome to the mbed v2 handbook
 
 Welcome to the mbed v2 handbook; we're here to help you get started with an mbed project. 
 
