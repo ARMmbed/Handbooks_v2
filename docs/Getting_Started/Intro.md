@@ -1,8 +1,3 @@
-<head>
-<link href="https://github.com/ARMmbed/Handbooks_v2/blob/master/FullCSS.css" type="text/css" rel="stylesheet"></link>
-</head>
-
-
 #Working with mbed
 
 This section will lead you through the process of creating a prototype on an mbed board:
